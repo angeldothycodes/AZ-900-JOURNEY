@@ -18,25 +18,23 @@ This repo is proof of my commitment, growth, and passion for tech.
 ## 📝 My Notes & Labs
 
 ### 1. Describe Cloud Computing
-- **Key concepts:** Cloud basics, models, shared responsibility, consumption-based model
+- **Key concepts:** 
 - **My notes:**  
-  - Cloud computing is delivering computing services (servers, storage, databases, networking, software) over the Internet (“the cloud”).
-  - You pay only for what you use (“consumption-based”).
-  - Shared responsibility: Microsoft manages the cloud; you manage your data and identity.
+
 - **Reflection:**  
-  - [What was new, surprising, or useful to you? Write a short thought!]
+
 
 ---
 
 ## 📸 Screenshots
 
-*Add images or proof of your module completions, labs, or practice exercises here as you go.*
+
 
 ---
 
 ## **Let’s Connect!**
-- [Your LinkedIn] (optional)
-- [Your Twitter/GitHub profile]
+https://www.linkedin.com/in/angelicadorothytolome19/
+- 
 
 ---
 
