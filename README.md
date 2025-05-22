@@ -15,26 +15,21 @@ This repo is proof of my commitment, growth, and passion for tech.
 - [ ] Describe the benefits of using cloud services
 - [ ] Describe cloud service types
 
-## 📝 My Notes & Labs
+## 📝 How to Use This Repo
 
-### 1. Describe Cloud Computing
-- **Key concepts:** 
-- **My notes:**  
-
-- **Reflection:**  
-
+- Each folder contains my detailed notes, reflections, and screenshots for that module.
+- This README tracks my overall progress.
 
 ---
 
-## 📸 Screenshots
+## 📸 Proof of Progress
 
-
+See each module folder for screenshots and results from hands-on labs.
 
 ---
 
-## **Let’s Connect!**
-https://www.linkedin.com/in/angelicadorothytolome19/
-- 
+## 📬 Let’s Connect!
+[LinkedIn – Angelica Dorothy Tolome](https://www.linkedin.com/in/angelicadorothytolome19/)
 
 ---
 
