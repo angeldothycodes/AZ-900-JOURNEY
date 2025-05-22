@@ -1,3 +1,6 @@
+What is cloud computing
+
+
 Cloud computing = delivery of computing services over the internet
 Computing services= common IT infrastructure (e.g virtual amchines, storage, databases, and networking)
 
