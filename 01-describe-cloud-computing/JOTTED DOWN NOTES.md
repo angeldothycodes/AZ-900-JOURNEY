@@ -12,7 +12,7 @@ If you need to increase your IT infrastructure rapidly, you don't have to wait t
 
 Cloud computing lets you choose the power and features you need to run your software. 
 
-The difference is, with Cloud computing, the PC is in a Cloud provider's data center instead of it being physical. With that said, it lets you pay for only the services you use, pus someone else to geth to manage the upkeep of the computer.
+The difference is, with Cloud computing, the PC is in a Cloud provider's data center instead of it being physical. With that said, it lets you pay for only the services you use, plus someone else to gets to manage the upkeep of the computer.
 
 **Each Cloud provider have their own selection of services to choose from, but the basic services provided by all Cloud providers are compute power and storage.**
 
