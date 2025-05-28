@@ -96,6 +96,21 @@ Legend:
 
 Three main cloud models are: **private, public,** and **hybrid**
 
-**Private cloud**
+**Private Cloud**
 - A cloud that is used by a single entity.
-- This provides much greater control for the company a
+- This provides much greater control for the company and its IT department.
+- Maybe hosted from your on site datacenter, may also be hosted in a dedicated datacenter offsite. Potentially, eveny by a 3rd party that has dedicated that datacenter to your company.
+- Cons: it comes with greater cost
+
+
+
+**Public Cloud**
+- It is built, controlled, and maintained by a third-party cloud provider
+
+
+
+**Hybrid Cloud**
+- As name says, hybrid of both public and private clouds in an inter-connected environment
+- Can be used to allow a private cloud to surge for increased, temporary demand by deploying public clou resources
+- It can provide an extra layer of security
+- User can flexibly choose which services to keep in public cloud and which to deploy to their private cloud infrastructure
