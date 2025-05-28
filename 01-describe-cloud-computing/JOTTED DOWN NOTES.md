@@ -124,3 +124,15 @@ Three main cloud models are: **private, public,** and **hybrid**
 | Organizations pay only for what they use          | Hardware must be purchased for startup and maintenance | Organizations control security, compliance, or legal requirements |
 | Organizations don’t have complete control over resources and security | Organizations are responsible for hardware maintenance and updates |                                            |
 
+
+**Multi-cloud**
+- Increasinlgy likely scenario is a multi-cloud scenario where multiple public cloud providers are used. This is likely when different features from different cloud providers are used.
+
+
+**Azure Arc**
+- a set of technologies that helps manage cloud environment whether it is a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multi-cloud environment running on multiple cloud providers at once.
+
+
+**Azure VMware Solution**
+- This is helpful when there is an established with VMware a private cloud environment but want to migrate to a public or hybrid cloud. Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
+
