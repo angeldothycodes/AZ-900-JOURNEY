@@ -1,4 +1,4 @@
- h<p align="center"><b>What is cloud computing?</b></p>
+ <p align="center"><b>What is cloud computing?</b></p>
 
 
 Cloud computing = delivery of computing services over the internet
