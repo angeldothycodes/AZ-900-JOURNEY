@@ -96,3 +96,6 @@ Legend:
 
 Three main cloud models are: **private, public,** and **hybrid**
 
+**Private cloud**
+- A cloud that is used by a single entity.
+- This provides much greater control for the company a
