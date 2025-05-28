@@ -133,6 +133,13 @@ Three main cloud models are: **private, public,** and **hybrid**
 - a set of technologies that helps manage cloud environment whether it is a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multi-cloud environment running on multiple cloud providers at once.
 
 
+
+Describe the consumption-based model
+
 **Azure VMware Solution**
 - This is helpful when there is an established with VMware a private cloud environment but want to migrate to a public or hybrid cloud. Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
 
+
+
+
+<p align="center"><b>DESCRIBE THE CONSUMPTION-BASED MODEL</b></p>
