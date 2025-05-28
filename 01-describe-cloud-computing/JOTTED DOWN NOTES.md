@@ -145,7 +145,17 @@ Describe the consumption-based model
 <p align="center"><b>DESCRIBE THE CONSUMPTION-BASED MODEL</b></p>
 
 Two types of expenses to consider when comparing IT infrastructure models:
-- Capital expenditure (CapEX)
-- Operational Expenditure (OpEx)
+- Capital expenditure (CapEX) = One time, up-front exenditure to purchase or secure tangible resources
+- Operational Expenditure (OpEx) = Spending money on services or products over time
+
+**Cloud Computing** falls under **OpEx** since it operates on a consumption-based model. We pay for the IT resources we use in Cloud computing. If no IT resources are used this month, you will not pay for any IT resources.
+
+**Benefits of consumption-based model:**
+
+- No upfront costs
+- No need to purchase and manage costly infrastructure that might not be used to its fullest potential
+- The ability to pay for more resources when in demand
+- The ability to stop paying for more resources when no longer needed
+
 
 
