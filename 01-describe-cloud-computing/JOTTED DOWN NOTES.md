@@ -33,7 +33,7 @@ As business grows and computing needs change, you can quickly bring on new compu
 
 
 
-<p align="center"><b>Describe the shared responsibility model</b></p>
+<p align="center"><b>DESCRIBE THE SHARED RESPONSIBILITY MODEL</b></p>
 
 
   In a traditional datacenter, it is the IT department reposnible for maintaining and ensuring that the infrastructure and software needed to keep datacenter are up and running. It also includes makig sure that securities are updated such as systems patches are applied and on the correct version.
@@ -91,6 +91,8 @@ Legend:
 
 
 
-<p align="center"><b>Define cloud models</b></p>
+<p align="center"><b>DEFINE CLOUD MODELS</b></p>
 
+
+Three main cloud models are: **private, public,** and **hybrid**
 
