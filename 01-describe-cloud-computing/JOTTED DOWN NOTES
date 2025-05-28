@@ -47,7 +47,29 @@ Examples:
 The diagram below highlights how the Shared Responsibility Model, this shows us who is responsible for what, depending on the cloud service type.
 
 
+| Responsibility                              | SaaS       | PaaS       | IaaS       | On-prem   |
+|----------------------------------------------|:----------:|:----------:|:----------:|:---------:|
+| **Responsibility always retained by customer** |||||
+| Information and data                         | ✅         | ✅         | ✅         | ✅        |
+| Devices (Mobile and PCs)                     | ✅         | ✅         | ✅         | ✅        |
+| Accounts and identities                      | ✅         | ✅         | ✅         | ✅        |
+| **Responsibility varies by type**            |||||
+| Identity and directory infrastructure        | 🔄         | 🔄         | ✅         | ✅        |
+| Applications                                | 🔄         | ✅         | ✅         | ✅        |
+| Network controls                            | 🔄         | 🔄         | ✅         | ✅        |
+| Operating system                            | 🔄         | 🔄         | ✅         | ✅        |
+| **Responsibility transfers to cloud provider** |||||
+| Physical hosts                              | ☁️         | ☁️         | ☁️         | ✅        |
+| Physical network                            | ☁️         | ☁️         | ☁️         | ✅        |
+| Physical datacenter                         | ☁️         | ☁️         | ☁️         | ✅        |
 
+Legend:
+
+✅ — Customer
+
+☁️ — Cloud provider (Microsoft)
+
+🔄 — Shared responsibility
 
 
 
