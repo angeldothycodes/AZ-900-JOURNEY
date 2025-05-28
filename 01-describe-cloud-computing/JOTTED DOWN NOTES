@@ -37,3 +37,6 @@ But with **shared responsibility** model, these gets split between cloud provide
 
 
 **There are instances where responsibiltiy depends on the situation.**
+Examples:
+1. For cloud SQL Database, the cloud provider would be responsible for maintaining the actual database. But consumer is still responsible for the data that gets ingested into the database. 
+2. If a virutal machine is delployed and installed an SQL database, the consumer is responsible for database patches and updates, as well as maintaining the data and information stored in the database.
