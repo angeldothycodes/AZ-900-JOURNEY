@@ -112,7 +112,7 @@ Three main cloud models are: **private, public,** and **hybrid**
 
 **Hybrid Cloud**
 - As name says, hybrid of both public and private clouds in an inter-connected environment
-- Can be used to allow a private cloud to surge for increased, temporary demand by deploying public clou resources
+- Can be used to allow a private cloud to surge for increased, temporary demand by deploying public cloud resources
 - It can provide an extra layer of security
 - User can flexibly choose which services to keep in public cloud and which to deploy to their private cloud infrastructure
 
