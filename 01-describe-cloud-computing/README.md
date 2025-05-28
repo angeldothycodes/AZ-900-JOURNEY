@@ -1,4 +1,4 @@
-### **What is cloud computing**
+<p align="center"><b>What is cloud computing?</b></p>
 
 
 Cloud computing = delivery of computing services over the internet
