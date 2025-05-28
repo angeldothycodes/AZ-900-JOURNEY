@@ -26,6 +26,13 @@ As business grows and computing needs change, you can quickly bring on new compu
 
 
 
+
+
+
+
+
+
+
 <p align="center"><b>Describe the shared responsibility model</b></p>
 
 
@@ -73,5 +80,17 @@ Legend:
 
 🔄 — Shared responsibility
 
+
+
+
+
+
+
+
+
+
+
+
+<p align="center"><b>Define cloud models</b></p>
 
 
