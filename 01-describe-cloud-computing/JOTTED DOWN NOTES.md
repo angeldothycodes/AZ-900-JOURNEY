@@ -33,6 +33,8 @@ As business grows and computing needs change, you can quickly bring on new compu
 
 But with **shared responsibility** model, these gets split between cloud provider and the consumer:
   > Physical security, power, cooling, network connectivity = responsibility of the cloud provider
+
+
   > Data and information store in the cloud, access security (meaning giving access to those who need it) = responsibility of the consumer
 
 
