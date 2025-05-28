@@ -158,4 +158,5 @@ Two types of expenses to consider when comparing IT infrastructure models:
 - The ability to stop paying for more resources when no longer needed
 
 
+<p align="center"><b>COMPARE CLOUD PRICING MODELS</b></p>
 
