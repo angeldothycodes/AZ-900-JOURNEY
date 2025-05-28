@@ -143,3 +143,9 @@ Describe the consumption-based model
 
 
 <p align="center"><b>DESCRIBE THE CONSUMPTION-BASED MODEL</b></p>
+
+Two types of expenses to consider when comparing IT infrastructure models:
+- Capital expenditure (CapEX)
+- Operational Expenditure (OpEx)
+
+
