@@ -160,3 +160,12 @@ Two types of expenses to consider when comparing IT infrastructure models:
 
 <p align="center"><b>COMPARE CLOUD PRICING MODELS</b></p>
 
+Cloud computing delivers computing services over the internet by using the **"pay-as-you-go"** pricing model. As mentioned previously, you pay only for the cloud services you use and these helps you:
+
+- Plan and manage operating costs
+- Run your infrastructure more efficiently
+- Scale as your business needs change
+
+  To put it simply, with cloud computing, you are renting compute power and storage from someone else's datacenter. It is as though you are using resources in your own datacenter except tgat when you are done using cloud resoruces, you give them back and you get billed only for what you use.
+
+  
