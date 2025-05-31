@@ -18,7 +18,7 @@ Is there a difference in 99% vs 99.9% SLA? Yes!
 
 - A service with the 99.9 SLA percentage can be unavailable for only 10 minutes per week or 43.2 minutes per month.
 
-Each azure service has its own sla. familiarize yourself with them prior to designing any application that runs on azure to ensure your optimizing availability against your business needs.
+Each azure service has its own SLA. Familiarize yourself with them prior to designing any application that runs on azure to ensure your optimizing availability against your business needs.
 
 ## Scalability
 - Adjusts cloud resources to meet demand efficiently.
