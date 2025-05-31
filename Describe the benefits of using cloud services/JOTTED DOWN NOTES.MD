@@ -126,4 +126,10 @@ By leveraging **high availability** and **scalability**, cloud solutions can mai
 
 
 
+Additional Resources:
+https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/
+- a Microsoft Learn course that introduces you to the Microsoft Azure Well-Architected Framework.
+Get started with Azure
+
+
 
