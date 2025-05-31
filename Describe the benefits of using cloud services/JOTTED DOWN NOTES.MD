@@ -75,3 +75,55 @@ By leveraging **high availability** and **scalability**, cloud solutions can mai
 > - **Predictability:** You can anticipate both performance and costs, making planning and budgeting easier.
 
 
+
+# Security and Governance in the Cloud
+
+## Governance
+
+- Cloud features help ensure your resources follow **corporate standards** and **regulatory requirements**.
+- Use **templates** (like Azure Resource Manager templates) to deploy resources in a consistent, compliant way.
+- Easily update all resources to match new or changing standards.
+- **Cloud-based auditing** automatically flags resources out of compliance and offers mitigation steps.
+- Automatic patching and updates (depending on service model) help maintain compliance and security.
+
+## Security
+
+- Cloud solutions can match different security needs:
+    - **IaaS:** You manage OS, software, and patches for maximum control.
+    - **PaaS/SaaS:** Patches and maintenance are often handled automatically by the provider.
+- Cloud providers defend against major threats like **DDoS attacks**, enhancing security at scale.
+- Over-the-internet delivery means providers invest heavily in robust, secure infrastructure.
+
+## Key Benefits
+
+- **Governance:** Consistent, compliant, and easily managed cloud resources.
+- **Security:** Flexible security management, automated updates, and advanced protection from cloud providers.
+
+> Establishing governance early keeps your cloud resources secure, up-to-date, and well-managed.
+
+
+# Manageability in the Cloud
+
+## Management of the Cloud
+
+- **Automated scaling:** Resources can automatically scale up or down based on demand.
+- **Template-based deployment:** Deploy resources from preconfigured templates for consistency and speed (no manual setup needed).
+- **Health monitoring:** Continuously monitor resource health and automatically replace unhealthy resources.
+- **Automatic alerts:** Set up alerts based on metrics to monitor performance in real time.
+
+## Management in the Cloud
+
+- Manage your cloud resources through multiple interfaces:
+    - **Web portal** (like Azure Portal)
+    - **Command Line Interface (CLI)**
+    - **APIs**
+    - **PowerShell**
+
+---
+
+> **Key Benefit:**  
+> The cloud makes it easier to deploy, monitor, and manage resources efficiently, with multiple management tools and automation options.
+
+
+
+
