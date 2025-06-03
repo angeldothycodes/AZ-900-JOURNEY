@@ -20,9 +20,30 @@ All of those ervices are delivered over the internet and this is bascially what 
 
 
 **Delivering services like this doesn't make a cloud computing yet**
+
 Computing needs also fulfill certain characteristics. First, scalability. Imaging there is a resource like a web app, vm, database, etc.
 And it needs to be scale up by increasing size. Increasing size means increasing resources like CPU, memory, or maybe faster storage. In this case, we are moving along the vertical line. That's why this is called **vertical scaling**. Increasing the size of the resource is called scaling up. If you decrease the size, decrease the power of the machine, this is called scaling it down.
 Besides changing the size of the resource, changing the power of that resource, you can also scale by adding more resources to your environment. 
 Increasing the amount of the resources themselves, in this case we are moving along the horizontal line that's why this is called **horizontal scaling**.
+Increasing the amount of your resources, this is called **scaling out**. If you decrease the amount of resources, this is called **scaling in**
+
+
+![image](https://github.com/user-attachments/assets/b5602c4c-1321-47f6-b8e6-78b86525d25b)
+
+
+![image](https://github.com/user-attachments/assets/c0782c3b-b8b7-4b22-8858-57c9e7f64419)
+
+
+
+<h3 align="center">Elasticity</h3>
+
+Best way to explain elasticity is to show to user workload off in the typical application during the day where the user workload changes as the day progresses. If you design system like this, you need to assign the specific amount of resources to be able to handle the workload. Properly designed system will be able to allocate and deallocate resources whenever needed. If this process is done automatically, this is **automatic scaling**. An **automatic scaling** is basically what **elasticity** is.
+
+**To summarize, elasticity is the ability of the system to scale dynamically.**
+
+
+<h3 align="center">Agility</h3>
+
+
 
 
