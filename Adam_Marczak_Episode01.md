@@ -71,3 +71,4 @@ Besides those localized failures, an event of much greater scale might happen an
 
 <h3 align="center">High Availability</h3>
 
+High Availability is a simple metric that measures how much uptime of the system so the
