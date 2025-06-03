@@ -42,8 +42,17 @@ Best way to explain elasticity is to show to user workload off in the typical ap
 **To summarize, elasticity is the ability of the system to scale dynamically.**
 
 
+
+
 <h3 align="center">Agility</h3>
 
+In the cloud, there are two ways to provision resources: manually via portal or automated ways using APIs and scripting. Regardless of what choice you make, there is time between the request is submitted and the response that the request has been fulfilled.
 
+Major difference between cloud and on-premises is that requesting resources in on-premises usually takes days, weeks, or even months. In cloud, once you request the resource, you will likely get it within seconds or minutes. For very big services, this might take few hours but still this is a major difference between the on-premise environments. In this case, when we say **agility**, it is the ability to react quickly and in the cloud this means being able to allocate and deallocate your resources in very short time. 
+
+
+
+
+<h3 align="center">Fault Tolerance</h3>
 
 
