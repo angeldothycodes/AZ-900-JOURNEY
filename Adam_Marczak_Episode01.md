@@ -55,4 +55,19 @@ Major difference between cloud and on-premises is that requesting resources in o
 
 <h3 align="center">Fault Tolerance</h3>
 
+As a user, you purchase services from the cloud whenever that's web application, Virtual machine, or SQL but regardless of the service you choose or interface that you use that service with, all those services need to run on some sort of servers in a datacenters. Storing their data on disk arise whenever there's any service or component failures on those servers were out on to be moved to another and same goes for disks arrays. Your data is ultimately stored on multiple discs and multiple disk arrays. To ensure no data is lost, both tolerance in this case talks about the ability of the system to remain up and running during component and service failures. Localized failures will not interrupt your service most of the time. In the cloud, all of the services have built-in fault tolerance, that means if you use cloud services, you will not notice those localized failures affecting your system at all. 
+
+
+![image](https://github.com/user-attachments/assets/99d3e507-e563-4146-a2e6-be4233aee2bc)
+![image](https://github.com/user-attachments/assets/06f6b992-8eb6-4682-9467-3f87528153d9)
+
+
+Besides those localized failures, an event of much greater scale might happen and event like this is called disaster. Disaster is a serious disruption of services caused by natural or human-induced causes. What we need t do is set up disaster recovery. Disaster Recovery simply means creating two copies of the same application into Azure regions and setting up replication between them so that there is two identical copis of data/ application. In front of those application, a simple DNS routing is need to be setup so that users are automatically redirected to the working version of your application. If any service failes, they will automatically get redirected to replicated version of application. 
+
+![image](https://github.com/user-attachments/assets/02cbac29-c44e-43e5-b53b-1e961c94f03a)
+
+
+
+
+<h3 align="center">High Availability</h3>
 
