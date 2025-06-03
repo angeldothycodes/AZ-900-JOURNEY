@@ -10,3 +10,19 @@ Once data is in the cloud, **computer resources** will be needed like a Windows 
 Cloud delivers you with said functionalities to create secure networking between those components but also your company. And because your entire platfrom is managed in the cloud, cloud also needs to delvier **analytic capabilities** so you can review your performance and telemetry data for your services. 
 
 There are many list of services clouds can offer but these four are the main ones and that are tested by the exam.
+
+
+All of those ervices are delivered over the internet and this is bascially what cloud is.
+
+
+
+![image](https://github.com/user-attachments/assets/44c93211-98b1-4724-a7eb-067b0650a0e9)
+
+
+**Delivering services like this doesn't make a cloud computing yet**
+Computing needs also fulfill certain characteristics. First, scalability. Imaging there is a resource like a web app, vm, database, etc.
+And it needs to be scale up by increasing size. Increasing size means increasing resources like CPU, memory, or maybe faster storage. In this case, we are moving along the vertical line. That's why this is called **vertical scaling**. Increasing the size of the resource is called scaling up. If you decrease the size, decrease the power of the machine, this is called scaling it down.
+Besides changing the size of the resource, changing the power of that resource, you can also scale by adding more resources to your environment. 
+Increasing the amount of the resources themselves, in this case we are moving along the horizontal line that's why this is called **horizontal scaling**.
+
+
