@@ -71,4 +71,21 @@ Besides those localized failures, an event of much greater scale might happen an
 
 <h3 align="center">High Availability</h3>
 
-High Availability is a simple metric that measures how much uptime of the system so the
+> High Availability is a simple metric that measures how much uptime of the system so the system being accessible to users or other systems versus how much downtime this system had.
+
+> Downtime means planned occurences like system downtime for patching or unplanned system failures.
+
+Availability is a simple calculation between the uptime and entire lifetime of the system and depending on what you agree with your client, you calculate availability per year, month, or day. 
+
+Using this metric is very important because ninety-nine percent availability means only three days of downtime per year. If you go for free nights, that's only eight hours- almost nine hours per year of downtime but most companies targeting hgih availability, they go for at least four nines which means fifty 5inites per year. With so restrictive uptime requirements, you will need a specific tools and specific design in order to achieve high availability.
+
+Summarize: High Availability is a measure of system uptime for either users or services. High availability basically means ability of the system to run for very extended periods of time with very little downtime.
+
+Depending on the criticality of your system, you need to choose whenever this system should be Highly Available or not. In Azure, many services deliver very high availability by default so just check what they offer and decide if the service is right for you
+
+
+
+![image](https://github.com/user-attachments/assets/68eb8a87-7558-4212-8044-2ec47b1b1b6d)
+
+![image](https://github.com/user-attachments/assets/1505bb6f-2862-48c8-baf6-fe2290e986dd)
+
