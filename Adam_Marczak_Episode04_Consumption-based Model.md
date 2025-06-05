@@ -14,6 +14,6 @@ you have multiple pricing components per each service. Additionally, the charges
 
 
 
-As an example here, I want to quickly go to Azure portal which is a powerful web-based self-service portal allowing its users manage all the aspects of their other resources. Inside the Azure portal, there is one service that interests us right now is the **cost management service**
+As an example here, I want to quickly go to Azure portal which is a powerful web-based self-service portal allowing its users manage all the aspects of their other resources. Inside the Azure portal, there is one service that interests us right now is the **cost management service**. Inside that I can reveal the cost of my subscription. 
 
 ![image](https://github.com/user-attachments/assets/f4085bba-9d17-4189-944d-e0ef9cb5b57c)
