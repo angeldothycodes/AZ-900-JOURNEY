@@ -39,7 +39,7 @@ Once this is in place, you have all the hardware needed in order to run the serv
 
 
 
-If you decide to outsource the infrastructure, purchase the infrastructure from the cloud provider, to let Microsoft manage the infrastructure while you manage the platform and software, this is so0called **Infrastructure as a Service**. In this case Microsoft will manage all the networking, hardware, and the virtualization itself while you manage the platform and the software part.
+If you decide to outsource the infrastructure, purchase the infrastructure from the cloud provider, to let Microsoft manage the infrastructure while you manage the platform and software, this is so called **Infrastructure as a Service**. In this case Microsoft will manage all the networking, hardware, and the virtualization itself while you manage the platform and the software part.
 
 ![image](https://github.com/user-attachments/assets/16bbd2f9-b515-4dfc-acee-9346c3e78673)
 
