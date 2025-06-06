@@ -55,4 +55,10 @@ If you're designing for the cloud, you most likely will go one level up so you w
 ![image](https://github.com/user-attachments/assets/cca3d2a7-c423-4855-8d0f-4923a5319e21)
 
 
-If you decide to outsource everything to Microsoft, that means you are using **Software as a Service**
+If you decide to outsource everything to Microsoft, that means you are using **Software as a Service** model. The ownership of the cloud provider is everything and there's nothing on you. You could think what would be the case of software as a service, usually this means buying-of-the-shell applications. Applications like Outlook, Skype, OneDrive, and all the business applications that you are probably using everyday, This is **Software as a Service** from Microosft manages everything and you just use the applications. 
+
+
+Summarizing the differences from those service models but from a little bit different angle. If you let cloud provider manage the physical datacenter buidlings, networking, security, servers, and the storage, we are talking about **Infrastructure as a Service**. If that cloud provider additionally manages the operating system and the development tools, we are talking about the platform as a service. If that cloud provider additionally manages the applications and the data, we are talking about the software as a service.
+
+![image](https://github.com/user-attachments/assets/0ee0040d-606d-4a27-8646-e8714a59aaca)
+
