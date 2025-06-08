@@ -44,6 +44,9 @@ Let's talk about the advantages and disadvantages of using private cloud.
 - Maintaining your hardware comes at a cost and that cost is a big initial CapEx investment that you need to make
 - Limited agility because limited by the amount of hardware and skills of your team so excellent skills and expertise of your internal team  is mandatory when running private cloud which comes at a cost
 
+![image](https://github.com/user-attachments/assets/c89ba6b0-7b1b-42ed-a583-1201bafe9aab)
+
+
 
 
 **HYBRID CLOUD**
