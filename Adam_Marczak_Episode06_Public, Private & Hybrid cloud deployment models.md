@@ -21,3 +21,16 @@ Advantages:
 
 - One major disadvantage when it comes to security & compliance. Cloud is secure by default. There may be specific security requirements or government policies, industry standard, or legal requirements the public clouds cannot meet. In that case, the public cloud might not be the right choice for you.
 - There's also issue with ownership because if you want to maintain your own hardware or make changes to the hardware then again you cannot do that because Microosft is hosting all the hardware and managing all the hardware in their own data centers
+
+
+
+**PRIVATE CLOUD**
+
+You host everything in your own datacenter. In here, you need to provide the self-service in order to be Azure-considered-cloud. You need to provide all the benefits of the cloud except in your own datacenter. In this scenario, you are the one maintaining all the hardware.
+
+
+
+![Uploading image.png…]()
+
+
+Let's talk about the advantages and disadvantages of using private cloud
