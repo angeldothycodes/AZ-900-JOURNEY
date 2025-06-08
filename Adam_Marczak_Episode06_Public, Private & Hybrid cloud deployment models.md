@@ -30,7 +30,20 @@ You host everything in your own datacenter. In here, you need to provide the sel
 
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/de4f0d64-ec16-4dad-a194-1a2c25f1e488)
 
 
-Let's talk about the advantages and disadvantages of using private cloud
+
+Let's talk about the advantages and disadvantages of using private cloud.
+
+**Advantages**
+- Because you maintain everything, you have all the possiilities so you can support pretty much any scenario. You have total control over the security and as such you can meet any security and compliant requirements
+
+
+**Disadvantages**
+- Maintaining your hardware comes at a cost and that cost is a big initial CapEx investment that you need to make
+- Limited agility because limited by the amount of hardware and skills of your team so excellent skills and expertise of your internal team  is mandatory when running private cloud which comes at a cost
+
+
+**HYBRID CLOUD**
+- 
