@@ -45,5 +45,20 @@ Let's talk about the advantages and disadvantages of using private cloud.
 - Limited agility because limited by the amount of hardware and skills of your team so excellent skills and expertise of your internal team  is mandatory when running private cloud which comes at a cost
 
 
+
 **HYBRID CLOUD**
-- 
+- In this model, you take advantage of both public and private cloud. Connect them together to provide the greatest flexibility out of those three options.
+
+  ![image](https://github.com/user-attachments/assets/c9296a83-834c-47d7-bf39-9333ccf0df21)
+
+
+**Advantages**
+- Obvious one is great flexibility but beyond that, you can run legacy applications in your private cloud, utilize existing infrastructure, meet any security requirements but for everything else, move to the cloud and take advantage of all the good stuff from the cloud.
+
+
+**Disadvantages**
+Bigger environment consisting both public and private cloud might be more expensive but is definetly more complicated to manage and as such, puts a bigger strain and bigger requirement on the skills and expertise of your internal IT teams
+
+
+![image](https://github.com/user-attachments/assets/15e96462-004d-4e66-b155-eff629ab177a)
+
