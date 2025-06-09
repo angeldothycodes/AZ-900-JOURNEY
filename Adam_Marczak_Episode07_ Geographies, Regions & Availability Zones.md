@@ -19,4 +19,8 @@ There are also few very important things to remember, first of all, some of thes
 
 There are also some services that are called global services. Those services don't have any specific region and specific location assigned- things like traffic manager for DNS routing or Azure AD but there are a few other examples  here. 
 
-Additionally, Azure is globally available with over 50 regions available.
+Additionally, Azure is globally available with over 50 regions available. New regions are being announced and built pretty much everyday. So in future, there might be more than that and lastly, there are some special regions like government regions for government regulations and partner regions like China regions where Microsoft is providing the services but it doesn't really manage the services themselves 
+
+
+![image](https://github.com/user-attachments/assets/9de55eab-f56d-45f9-9bdd-1214b4bb3207)
+
