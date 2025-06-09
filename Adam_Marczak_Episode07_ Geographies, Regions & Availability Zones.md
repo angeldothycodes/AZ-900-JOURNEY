@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/06c7c4cb-2d6e-4d96-aa32-f06e0fa459b5)
 
 
-Data Center
+## DATA CENTER
 > If you purchase services in Azure, whenever this is SQL database, web hosting, virtual machine, or one of many services within Azure - all those services run on a physical infrastructure underneath on some sort of servers. A physical facility that host those servers is a data center. It is used to host a group of network servers. A typical data center has its own power, cooling, and networking infrastructure.
 >
 > So data centers are building blocks of global Azure infrastructure
@@ -24,3 +24,6 @@ Additionally, Azure is globally available with over 50 regions available. New re
 
 ![image](https://github.com/user-attachments/assets/9de55eab-f56d-45f9-9bdd-1214b4bb3207)
 
+
+
+## AVAILABILITY ZONE
