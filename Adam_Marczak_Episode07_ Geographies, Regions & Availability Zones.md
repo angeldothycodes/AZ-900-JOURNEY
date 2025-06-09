@@ -27,3 +27,53 @@ Additionally, Azure is globally available with over 50 regions available. New re
 
 
 ## AVAILABILITY ZONE
+
+![image](https://github.com/user-attachments/assets/c638945b-cfb9-4bf1-a5a2-b3a778c97643)
+
+
+This is a regional feature where each data center gets a number that represents a grouping of physically separate facilities 
+Simply said availability zones are designed to protect from data center failures because each availability zone has its own power cooling and network infrastructure whenever there's a failure in a single datacenter, others will continue working. if you think about it this is how datacenter operates normally. 
+
+**How does availability zones help here?**
+By introducing this feature, Microsoft also created services and features within services that can take advantge of this information. Those services are split into two categories. The first ones is **zonal services**. With zonal services, you can choose to which availabilityzones are you doing the deployment to. In case of virtual machines, now you have a choice. You can create two virtual machines for highly avilable environment and specy that the first virtual machine goes to availability zones # 1, and second one goes to availability zone #2 or 3. This way, you ensure that if there's a datacenter-level failure, at least one of your VM will continue working. In the calssical scenario, without availability zones, it is possible that your VM even in a big region could be deployed in the same data center or even to the same physical server that is why **availability zone** allow you to create those highly available applications
+
+The secodn type of the service is **zone-redundant service**. Those services like SQL database, storage accounts, allow you to take advantage of multiple availability zones out  of the box. With a simple check of an option, your services will automatically replicate data across multiple availability zones and will work in a redundant way. So if there's a data center-level failure, you wouldn't even notie it in your application. 
+
+
+
+**Few things that you should note here**
+
+![image](https://github.com/user-attachments/assets/d8fb72c2-5cb9-4346-b751-24824083f22c)
+
+- First of all, not all regions support availability zones. About seven regions right now support it with more coming in the future.
+- Second, if the region supports it, there's at least three or more zones within that region. That means there's at least three data centers required
+- Lastly, availability zone is built from one or more data centers. It's not necessarily a single data center
+
+
+If we look at our map, some Azure regions will have logical groupings over their data centers makig them zone-enable region. 
+
+![image](https://github.com/user-attachments/assets/b7eddf52-91f3-4348-bc2f-a657e627cdb2)
+
+**What happens if there's a region-level failure, if entire region goes down?**
+Then it doesn't matter if you use availability zones. For that reason, Microsoft created **region pairs**. Each region has a **region pair**. Paired regions are at least 300 miles away from each other to ensure that there's enough distance to cover the natural-level disaters (e.g. floods, storms, earthquakes, etc.)
+
+This way Microsoft ensures that if one region goes down, the second region that is paired with that region will be up and gives you a set of features to allow you to replicate your data, application, across multiple regions
+
+![image](https://github.com/user-attachments/assets/7d6533ff-05e3-4b8c-b0c2-bd261bff5bbc)
+
+
+
+## Region Pairs
+- Each region is paired with exactly one region
+- Each region pair is sttaic. You cannot choose region are you pairing to, Just check the documentation to which region you see your region currently.
+- Each region also resides within the same geography (with an exception of a single Brazil south which is replicating to US)
+- Each region pair has physical isolation of at least 300 miles distance from each other - to ensure that large-scale natural disaster will not take two regions down at the same time
+- One of the cool features of region pairs is that some services will provide a platform-level replication. Again, with a simple check of an option, you will automatically replicate your data and your services across multiple regions. Therefore, protecting yourself from region level failures
+- Additional benefit of region pairs is that Microsoft is palnning updates across pairs. Therefore, if you will replicate to another pair, Microsoft is making sure that the plan updates, plan rollout of the services don't happen to the same paired regions at the same time. Therefore, it will rollout all the updates and all the necessary things to the first regions, if everything is working correctly, the updates wil be rolled out to the spared region making sure that even the platform updates will not impact your application. therefore, it is preferred option for you to replicate to a paired region.
+- If you are planning for disaster recovery scenarios, you can ensure data resiliency is maintained for your applications
+
+![image](https://github.com/user-attachments/assets/9be6a07c-30dd-4ecf-a0aa-2e9abfabdd79)
+
+
+![image](https://github.com/user-attachments/assets/07f45bad-f22d-4a90-b98e-5a91828f83bc)
+
