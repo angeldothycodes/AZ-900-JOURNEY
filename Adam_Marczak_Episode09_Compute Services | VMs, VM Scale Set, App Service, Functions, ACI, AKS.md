@@ -6,4 +6,6 @@
 > ![image](https://github.com/user-attachments/assets/88a20e96-707d-4202-a80a-a424f05a8e0c)
 
 
- First service on the list is virtual machine
+ ##Virtualization
+First service on the list is virtual machine but in order to talk about virtual machine, let's talk about virtualization in general.
+If you have a physical server, physical machine, what you will do first is install operating system which will have standard components like file systems, some services, some ports
