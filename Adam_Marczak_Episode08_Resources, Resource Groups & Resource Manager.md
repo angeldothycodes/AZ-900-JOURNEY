@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/302e2007-f29e-49c6-bcf6-f9bcefd9d974)
+
 What is the most important things you need to learn when working with Azure are the core building blocks for management of Azure services. Those building blocks consist of resources, resource groups, and resource manager .
 
 We will also cover what are the benefits of using those core components when building solutions in Azure.
