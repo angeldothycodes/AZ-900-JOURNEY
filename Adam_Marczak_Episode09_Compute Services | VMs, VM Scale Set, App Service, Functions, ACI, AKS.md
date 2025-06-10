@@ -8,4 +8,12 @@
 
  ##Virtualization
 First service on the list is virtual machine but in order to talk about virtual machine, let's talk about virtualization in general.
-If you have a physical server, physical machine, what you will do first is install operating system which will have standard components like file systems, some services, some ports
+If you have a physical server, physical machine, what you will do first is install operating system which will have standard components like file systems, some services, some ports, and other configs. If you will want to run applications on this physical machine, you will simply install them on that operating system. but the problem with hosting multiple applications on the same operating system is that they will share the same file system, same services, same ports, and other configs. Because there is no boundaries between those applications, at some point or another, they will collide and it doesn't matter whether they will use the same service or same ports at some point, they will collide which is not good.
+The thing you can do to avoid that is to use **virtualization** where on the physical machine, you install operating system. But additionally, you install virtualization software, virtualization software will allow you to create virtual machines - an emulation of a physical machine. That machine since is an emulated physical machine, will still have to get its own operating system and on that operating system, you will be  able to host your application and this application now has its own sandbox - it doesn't matter what it will do on this operating system, it will not impact any other application because other applications will be hosted on separate virtual machines with their own environments. This gives you a full separation and allows you to virtualize, emulate multiple physical machines using a single physical machine.
+
+![image](https://github.com/user-attachments/assets/06ca3515-1a85-43a9-89c2-75a09cad2936)
+
+
+Simply said, vritualization is emulation of physical machines. It gives you ability to create a different virtual hardware config per machine and per application.
+
+Additionally, you are able to install different operating system per machine per application. So if application needs different systems, this is a way to go and because those are totally separate machines, each application can freely use its own file system services, ports, install any middleware or apply any configuration it needs to run and vritualization in the cloud is done through **Azure virtual machine service**. The process is fairly simple. You either grab Microsoft virutal machine
