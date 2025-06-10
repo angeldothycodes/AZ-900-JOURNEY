@@ -9,5 +9,5 @@ As soon as you're done with the service and you delete it, the resource is also 
 
 Azure uses resources to save all the configurations that you make for your service. Pretty much any configuration option that you have for your service is represented as a property on that resource.
 
-All resources in Azure can be represented as a JSON template. There are four common properties across all resources like type, API version, name and location and some other non-common properties taht are different and used to describe different resources, different services within Azure.
+All resources in Azure can be represented as a JSON template. There are four common properties across all resources: like **type**, **API version**, **name** and **location** and some other non-common properties taht are different and used to describe different resources, different services within Azure.
 
