@@ -16,6 +16,7 @@ All resources in Azure can be represented as a JSON template. There are four com
 
 ![image](https://github.com/user-attachments/assets/380850f6-e93c-492f-b444-1b1bd93602c6)
 
+## Resource Group
 
 No resource in Azure can be created without something called **resource group**. A resource group is a logical container for only resources and it is requirement in order to create any resource in Azure. A resource group is a grouping of resources but you should use it to logically group related resources, it is not a hard requirement but research groups were created as a utility to manage Azure resources therefore you should take advantage of them. How do you know how to group resources together in resource group.
 
@@ -33,3 +34,15 @@ Take note that there's no one policy that will organize resources for every orga
 
 ![image](https://github.com/user-attachments/assets/277260be-1b81-4279-ba01-82eb20993388)
 
+
+
+
+To summarize, at any point in time, each resource can be in exactly one resource group. Additionally, resource groups have their own location assigned but this location is only used to store metadata so it's not impacting resources because each resource in resource group can be in a different location. If you are not sure about your strategy, remember that most resources can be moved between the resource groups. Remember also that resource groups cannot be nested so you cannot create a hierarchy of resource groups. Most importantly, when picking strategy remember to pick strategy that fits your organization needs. Whenever there's a billing. security access management or simply application lifecycle- it is depend on you what best works on your organization
+
+![image](https://github.com/user-attachments/assets/a24b2068-fedb-496e-833f-a0d997b42a08)
+
+
+
+
+## Resource Manager
+As an Azure customer, you can use one of many methods of purchasing services. It can be done through Azure portal, use through Rest API to create scripts and applications that will automate resource deployments. Powershell scripting can be used to, and CLI, or you can simply use one of many programming SDKs. All of these interfaces connect to the same point sending the same template. It's a service called Azure Resource Manager, a centralized service governing all the resources in Azure. It's that service responsible for creating each service within Azure. Resource manager is a centralized management for all the resources and resource groups in Azure and because it has unified language and unified template lab=nguage, you always send the same properties, have the same validations, and everything is consistent across multiple interfaces. Resource manager is also responsible for checking privileges with Azure Active diretcory. This is because Azure AD is a centralized identity and access management service in Azure so this is where all the privileges are stored. So Azure resource manager will check with azure AD whenever the user that is requesting resource creation, deletion, or changes as a  proper privilege is assigned as such Azure resource manager is also responsible for controlling the access and management of the resources. All the demos that we performed today went through Azure resource manager in order to create those resources. Resource manager is an internal azure service for building and managing our resources.
