@@ -57,12 +57,24 @@ You can move away from virtual machines into containers. Containers are a little
 ![image](https://github.com/user-attachments/assets/b9ac4189-8305-434a-90c2-b0a854ef418c)
 
 
-##Azure Container Instacnes (ACI)
+##Azure Container Instances (ACI)
 
 Our first service for containers is called **container instances**.
 
-When it comes to container instances, instead of bundling entire system, you just grab the application, grab the configuration, and other runtime, middleware, software that you need for this application to run, you ask your developers to bundle this application into a container image and host it into container repository.  **Container repository** is a simple storage service where you host your own images. Similarly to virtual machines
+![image](https://github.com/user-attachments/assets/72bbc253-a077-491c-9425-cd2f84911607)
+
+
+When it comes to container instances, instead of bundling entire system, you just grab the application, grab the configuration, and other runtime, middleware, software that you need for this application to run, you ask your developers to bundle this application into a container image and host it into container repository.  **Container repository** is a simple storage service where you host your own images. Similarly to virtual machines, there are public marketplace and public repositories of other images for containers as well. You can then grab any of those images and push it to container instance which will create a container group a simple virtual machine underneath the scenes and host your containers. Some containers might be exposed to users, some might not. It depends on what container really does. If it's web application, it will be exposed to users. If it's a simple batch script, maybe it won't. You can create more container group and host small container depending on your needs.
+
+**Summary**
+
+- Container instances is your simplest and fastest way to run a container in Azure
+- First service categorized as **Platform as a Service**
+- Sometimes called Serverless containers because you can actually abstract from the managing of the servers underneath completely
+- This service is designed for small and simple web applications running bakground jobs, maybe some scheduled scripts.
+
+![image](https://github.com/user-attachments/assets/3bb0ca08-8fec-4bcb-8c2f-c735b82f3dd8)
 
 
 
-
+When comparing container instances to virtual machines and scale sets, you still maintain some degree of control because you are virtualizing operating system so you can install run extra runtimes, extra software but it's still much less than maintaining full-fledged operational system. In case of container instances, there's no autoscaling but the cool thing is that at minimum, you don't need to run any servers so you can have zero nodes running, if you don't need any but at maximum, you can have 20 container groups therefore the scalability of this solution is not that great but it's nothing bad. This service is simple for simple use cases. If you need scalability, there are other services that deliver you that. Service like **Kubernetes Service**
