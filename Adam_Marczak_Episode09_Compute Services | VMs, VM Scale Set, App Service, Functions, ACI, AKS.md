@@ -22,6 +22,12 @@ An **Azure virtual machine service** grabs those images and allows you to choose
 
 ![image](https://github.com/user-attachments/assets/93de82ec-24f1-4cfc-a576-a8c914255e04)
 
-**Virtual machines** are of course **Infrastructure as a Service**. That means you are responsible for managing both application platform and operating system configurations because of that you have total control over the operating system and the software running on it and as such you have a support for marketplace but also customer-provided images so you can prepare your own images as a starting point for the virtual machines containing your organizational setup out of the box.
+**Virtual machines** are of course **Infrastructure as a Service**. That means you are responsible for managing both application, platform and operating system configurations because of that you have total control over the operating system and the software running on it and as such you have a support for marketplace but also customer-provided images so you can prepare your own images as a starting point for the virtual machines containing your organizational setup out of the box.
 
 
+With that said, this service is best-suited for a custom software requiring system configuration or lift-and-shift scenarios. So moving your on-premise application to the cloud without a need to redesign. When it comes to supported scenarios, you can run pretty much any application, any scenario using virtual machines whether this is a web application, web service, maybe a database, desktop application, or using this as a jumpbox to connect to a secure environment or just data gateways, or many other scenarios that virtual machines can support.
+
+![image](https://github.com/user-attachments/assets/e2401182-eac0-4373-a44c-684f2a32f8cf)
+
+
+**To summarize**, virtual machines they give you a lot of control over the system but that also gives you additional maintenance therefore
