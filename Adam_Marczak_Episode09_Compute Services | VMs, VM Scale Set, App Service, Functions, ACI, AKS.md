@@ -14,6 +14,14 @@ The thing you can do to avoid that is to use **virtualization** where on the phy
 ![image](https://github.com/user-attachments/assets/06ca3515-1a85-43a9-89c2-75a09cad2936)
 
 
-Simply said, vritualization is emulation of physical machines. It gives you ability to create a different virtual hardware config per machine and per application.
+Simply said, **virtualization is emulation of physical machines**. It gives you ability to create a different virtual hardware config per machine and per application.
 
-Additionally, you are able to install different operating system per machine per application. So if application needs different systems, this is a way to go and because those are totally separate machines, each application can freely use its own file system services, ports, install any middleware or apply any configuration it needs to run and vritualization in the cloud is done through **Azure virtual machine service**. The process is fairly simple. You either grab Microsoft-preparevirutal machine images- whenever this is Ubuntu, Windows, or a cold machine, Microsoft already prepared virtual machine images for you in the marketplace that you can start from or if you wnat, you can configure your own system, install services, runtimes, applications, and ask your developers to prepare an image- a custom image for your own company and put that image into some storage. An azure virtual machine service grabs those images and allows you to choose a custom or marketplace image to start creating new virtual machines and exposing them to your users
+Additionally, you are able to install different operating system per machine per application. So if application needs different systems, this is a way to go and because those are totally separate machines, each application can freely use its own file system services, ports, install any middleware or apply any configuration it needs to run and vritualization in the cloud is done through **Azure virtual machine service**. The process is fairly simple. You either grab Microsoft-prepare virtual machine images- whenever this is Ubuntu, Windows, or a cold machine, Microsoft already prepared virtual machine images for you in the marketplace that you can start from or if you want, you can configure your own system, install services, runtimes, applications, and ask your developers to prepare an image- a custom image for your own company and put that image into some storage. 
+
+An **Azure virtual machine service** grabs those images and allows you to choose a custom or marketplace image to start creating new virtual machines and exposing them to your users. Doesn't matter which one you choose, in just a couple of minutes a virtual machine will be provisioned and ready to use.
+
+![image](https://github.com/user-attachments/assets/93de82ec-24f1-4cfc-a576-a8c914255e04)
+
+**Virtual machines** are of course **Infrastructure as a Service**. That means you are responsible for managing both application platform and operating system configurations because of that you have total control over the operating system and the software running on it and as such you have a support for marketplace but also customer-provided images so you can prepare your own images as a starting point for the virtual machines containing your organizational setup out of the box.
+
+
