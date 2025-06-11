@@ -30,4 +30,5 @@ With that said, this service is best-suited for a custom software requiring syst
 ![image](https://github.com/user-attachments/assets/e2401182-eac0-4373-a44c-684f2a32f8cf)
 
 
-**To summarize**, virtual machines they give you a lot of control over the system but that also gives you additional maintenance therefore
+**To summarize**, virtual machines they give you a lot of control over the system but that also gives you additional maintenance therefore I rate them high when it comes to control and maintenance. They have no autoscaling feature threfore you always work with one node, one virtual machine at a time. As such the scalability of this solution is quite low because you can't autoscale. The only way of scaling is vertical scaling by adding faster CPUs or more memory, faster drives which brings me to the second point. 
+Virtual machine scale set 
