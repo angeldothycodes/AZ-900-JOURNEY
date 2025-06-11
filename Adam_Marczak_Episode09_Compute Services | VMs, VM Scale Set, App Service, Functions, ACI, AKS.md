@@ -44,3 +44,25 @@ In that case, virtual machine scale sets are still Infrastructure as a Service b
 In this case, you still have a quite of lot maintenance but high degree of control over the virtual machine scale sets but in this case, you are getting auto-scaling features so you can scale up to maximum of a thousand of 600 depending whenever this is custom or marketplace image which makes scale sets as one of the most scalable services in Azure. If you want to decrease the maintenance required, you can move away from virtual machines into containers.
 
 ![image](https://github.com/user-attachments/assets/ca1c53dc-5ebf-4770-a4e8-e7df13913098)
+
+
+## Containers vs VMs
+You can move away from virtual machines into containers. Containers are a little bit different than virtual machines. While there is still physical machine, there is still operating system unerneath. But instead of installing virtualization software, we install container runtime within container runtime, you install containers. **Container** is a sandbox environment for each application and you can have multiple containers within a single runtime. The major difference here is there is no operating system replicated across each container. As such, the footprint of the container is much smaller than the one of the virtual machine.
+
+![image](https://github.com/user-attachments/assets/6f61dada-22c6-49f3-8fdf-e48a60c1a8ed)
+
+##Containers
+- Don't have their own operating system, they actually host operating system but because application needs operating system to run, they emulate it. So while virtual machines emaulate hardware, containers emulate operating system to provide the sandbox environment for your applications. Because of that they are more lightweight than virtual machines, therefore there's less development effort required for your team, there's less maintenance because you don't need to maintain the operating system patches, updates. Becaue there's no operating system, there's less compute than storage requirements from those containers, as such, you can respond quicker to demand so you can autoscale faster than with Virtual machines but at the same time, they are pretty close to virtual machines therefore they allow you to run pretty much any scenario in the cloud. That's why containers are so popular recently on the market.
+
+![image](https://github.com/user-attachments/assets/b9ac4189-8305-434a-90c2-b0a854ef418c)
+
+
+##Azure Container Instacnes (ACI)
+
+Our first service for containers is called **container instances**.
+
+When it comes to container instances, instead of bundling entire system, you just grab the application, grab the configuration, and other runtime, middleware, software that you need for this application to run, you ask your developers to bundle this application into a container image and host it into container repository.  **Container repository** is a simple storage service where you host your own images. Similarly to virtual machines
+
+
+
+
