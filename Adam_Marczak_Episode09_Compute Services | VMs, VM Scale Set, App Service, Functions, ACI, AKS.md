@@ -6,7 +6,7 @@
 > ![image](https://github.com/user-attachments/assets/88a20e96-707d-4202-a80a-a424f05a8e0c)
 
 
- ##Virtualization
+## Virtualization
 First service on the list is virtual machine but in order to talk about virtual machine, let's talk about virtualization in general.
 If you have a physical server, physical machine, what you will do first is install operating system which will have standard components like file systems, some services, some ports, and other configs. If you will want to run applications on this physical machine, you will simply install them on that operating system. but the problem with hosting multiple applications on the same operating system is that they will share the same file system, same services, same ports, and other configs. Because there is no boundaries between those applications, at some point or another, they will collide and it doesn't matter whether they will use the same service or same ports at some point, they will collide which is not good.
 The thing you can do to avoid that is to use **virtualization** where on the physical machine, you install operating system. But additionally, you install virtualization software, virtualization software will allow you to create virtual machines - an emulation of a physical machine. That machine since is an emulated physical machine, will still have to get its own operating system and on that operating system, you will be  able to host your application and this application now has its own sandbox - it doesn't matter what it will do on this operating system, it will not impact any other application because other applications will be hosted on separate virtual machines with their own environments. This gives you a full separation and allows you to virtualize, emulate multiple physical machines using a single physical machine.
@@ -33,7 +33,7 @@ With that said, this service is best-suited for a custom software requiring syst
 **To summarize**, virtual machines they give you a lot of control over the system but that also gives you additional maintenance therefore I rate them high when it comes to control and maintenance. They have no autoscaling feature threfore you always work with one node, one virtual machine at a time. As such the scalability of this solution is quite low because you can't autoscale. The only way of scaling is vertical scaling by adding faster CPUs or more memory, faster drives which brings me to the second point. 
 
 
-##Azure Virtual machine Scale Sets
+## Azure Virtual machine Scale Sets
 With this service you pink an image, whenever this is a custom image or a marketplace image.This image is automatically scaled across multiple virtual machines. Those virtual machines are hidden behind a load balancer which redirects the traffic from your users or applications to one of those virtual machines within the scale set. The amount of virtual machines can be set statically by saying 3,5, 10 or 100 or automatically with autoscaling feature. You can increase the amount of virtual machines in scale set or decrease the amount based on your application demand. 
 
 
@@ -51,13 +51,13 @@ You can move away from virtual machines into containers. Containers are a little
 
 ![image](https://github.com/user-attachments/assets/6f61dada-22c6-49f3-8fdf-e48a60c1a8ed)
 
-##Containers
+## Containers
 - Don't have their own operating system, they actually host operating system but because application needs operating system to run, they emulate it. So while virtual machines emaulate hardware, containers emulate operating system to provide the sandbox environment for your applications. Because of that they are more lightweight than virtual machines, therefore there's less development effort required for your team, there's less maintenance because you don't need to maintain the operating system patches, updates. Becaue there's no operating system, there's less compute than storage requirements from those containers, as such, you can respond quicker to demand so you can autoscale faster than with Virtual machines but at the same time, they are pretty close to virtual machines therefore they allow you to run pretty much any scenario in the cloud. That's why containers are so popular recently on the market.
 
 ![image](https://github.com/user-attachments/assets/b9ac4189-8305-434a-90c2-b0a854ef418c)
 
 
-##Azure Container Instances (ACI)
+## Azure Container Instances (ACI)
 
 Our first service for containers is called **container instances**.
 
