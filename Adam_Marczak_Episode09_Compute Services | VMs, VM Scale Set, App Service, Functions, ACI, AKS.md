@@ -31,4 +31,16 @@ With that said, this service is best-suited for a custom software requiring syst
 
 
 **To summarize**, virtual machines they give you a lot of control over the system but that also gives you additional maintenance therefore I rate them high when it comes to control and maintenance. They have no autoscaling feature threfore you always work with one node, one virtual machine at a time. As such the scalability of this solution is quite low because you can't autoscale. The only way of scaling is vertical scaling by adding faster CPUs or more memory, faster drives which brings me to the second point. 
-Virtual machine scale set 
+
+
+##Azure Virtual machine Scale Sets
+With this service you pink an image, whenever this is a custom image or a marketplace image.This image is automatically scaled across multiple virtual machines. Those virtual machines are hidden behind a load balancer which redirects the traffic from your users or applications to one of those virtual machines within the scale set. The amount of virtual machines can be set statically by saying 3,5, 10 or 100 or automatically with autoscaling feature. You can increase the amount of virtual machines in scale set or decrease the amount based on your application demand. 
+
+
+In that case, virtual machine scale sets are still Infrastructure as a Service because you are still managing the virtual machines, you need to still prepare images, but they are set of identical virtual machines created from the same image. As such, they have built-in auto-scaling features allowing you to create and delete virtual machines based on demand and they are designed for manual or out-of-scope workloads - things like web services, batch processing, etc. This is your way to scale-out with virtual machines in the cloud.
+
+![image](https://github.com/user-attachments/assets/064f2b55-4d97-404b-850f-b11fe28176b1)
+
+In this case, you still have a quite of lot maintenance but high degree of control over the virtual machine scale sets but in this case, you are getting auto-scaling features so you can scale up to maximum of a thousand of 600 depending whenever this is custom or marketplace image which makes scale sets as one of the most scalable services in Azure. If you want to decrease the maintenance required, you can move away from virtual machines into containers.
+
+![image](https://github.com/user-attachments/assets/ca1c53dc-5ebf-4770-a4e8-e7df13913098)
