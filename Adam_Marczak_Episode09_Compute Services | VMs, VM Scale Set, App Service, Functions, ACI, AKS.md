@@ -102,4 +102,7 @@ It is app service's responsibility to deploy this package across multiple nodes 
 ![image](https://github.com/user-attachments/assets/79020de4-7778-441f-8344-d0069715fac7)
 
 
-**Azure App Service** is azure offering for hosting enterprise-grade web applications, another Platfrom as a Services (PaaS) offering, and it supports multiple programming languages and also containers which is great because you can use any commn language on the market that is used to develop web applications. Most likely, app service already supports that language, so if you have skills already available in your teams, you can quickly leverage app service to host applications
+**Azure App Service** is azure offering for hosting enterprise-grade web applications, another Platfrom as a Services (PaaS) offering, and it supports multiple programming languages and also containers which is great because you can use any commn language on the market that is used to develop web applications. Most likely, app service already supports that language, so if you have skills already available in your teams, you can quickly leverage app service to host applications.
+
+![image](https://github.com/user-attachments/assets/8eda700d-07b7-45ef-a3c2-f9a2ef68f266)
+
