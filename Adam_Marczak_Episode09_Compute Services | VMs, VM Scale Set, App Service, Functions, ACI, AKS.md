@@ -122,3 +122,23 @@ Function App are still Platform as a Service, although they are very often calle
 
 
 Because this server is serverless in nature, therefore it offers the lower degree of control over the running infrastructure but also requires the least maintenance from the development teams and with autoscaling features from 0 to 200 servers, it is one of the more scalable services in Azure and with its amazing consumption-based pricing model, it is one of the core services for building very cheap and very scalable web applications. 
+
+
+
+## Summary
+
+- Virtual Machines (Infrastructure as a Service) are used to build solutions for custom software with custom requirements, very specialized scenarios where you need high degree of control.
+
+- If you need autoscaling features, then use scale sets
+
+- If you still need to run highly customizable environments but you don't want to maintain so much, you can try containers
+
+- For a small and quick solutions using containers, try container instances
+
+- But if you need to scale out, you have autoscaling scenarios and you need high degree of control over the containers, you should go with Kubernetes service
+
+- If you want to host web applications in Azure and you want to do it very fast, try App Services. An enterprise web hosting service in Azure that is very easy to start, ery easy to work with and supports a lot of programming languages
+
+- If you have very small services, very small pieces of code that you want to run as web services, try Azure functions. This is so-called function as a service, serverless, and it's designed to build nanoservices and has excellent consumption-based pricing
+
+![Uploading image.png…]()
