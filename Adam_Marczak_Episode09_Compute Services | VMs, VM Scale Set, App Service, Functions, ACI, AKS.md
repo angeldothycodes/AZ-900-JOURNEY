@@ -113,3 +113,12 @@ When comparing app services to other services, you have less control over the ha
 This service is similar to app service but the difference is in app services, we were creating a full-fledged web services or web applications but if we want to run a small pieces of code, let's say we have a function that adds two numbers, a and b, and returns a result. If we want to run the small piece of code as a small web service, we again ask developers to prepare a small package and deploy this to function app. Function app similarly to app service will deploy this across multiple nodes and expose this as a web service. This might look very similar to how I present App services moment ago, it is because Azure Functions are based on Azure App Service so they have a lot of same features and a lot of new features that allow you to host your application's pieces of code very effectively.
 
 ![Screenshot 2025-06-12 144155](https://github.com/user-attachments/assets/24ac766e-5c76-4edc-aed5-19036672e45a)
+
+
+Function App are still Platform as a Service, although they are very often called 'Serverless' because they are completely abstracting the way that you manage servers underneath. If there is no traffic, that means there are no servers and no charges. With Azure Functions, you have two hosting, two pricing models - a consumption-based plan where you pay exactly for what you use like 20 cents for 1 million executions or you can have dedicated plan using app services. So it's up to you to choose what is best option for you. This service is designed for building micro or nano services state-led functions using a very small pieces of code therefore they are very simple in nature. You should not be using Azure functions to build fully-fledged big services. Although they can very nicely complement them if needed.
+
+
+![image](https://github.com/user-attachments/assets/c1b2ade0-fbcb-44d1-9f69-1d03d347783b)
+
+
+Because this server is serverless in nature, therefore it offers the lower degree of control over the running infrastructure but also requires the least maintenance from the development teams and with autoscaling features from 0 to 200 servers, it is one of the more scalable services in Azure and with its amazing consumption-based pricing model, it is one of the core services for building very cheap and very scalable web applications. 
