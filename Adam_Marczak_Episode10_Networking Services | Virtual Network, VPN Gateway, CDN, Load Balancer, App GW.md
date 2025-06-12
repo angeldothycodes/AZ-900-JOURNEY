@@ -29,3 +29,8 @@ Azure virtual network is an emulation of a physical network infrastructure in th
 ## Network Security Groups
 
 Imagine you have two virtual machines within a single virtual network placed in two separate subnets. If you want to control the traffic that comes from the internet to that virtual machine, you can place a **Network Security Group** on that subnet and those security grous will only allow specific traffic to reach that virtual machine. You can also use network security groups to manage the traffic across subnets. It is a tool to manage your networking in secure and efficient manner.
+
+![image](https://github.com/user-attachments/assets/62d44e7d-16cb-4c05-8e24-f4bfbe660d02)
+
+
+## Virtual Network Gateway
