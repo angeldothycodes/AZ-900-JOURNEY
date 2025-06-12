@@ -106,3 +106,5 @@ It is app service's responsibility to deploy this package across multiple nodes 
 
 ![image](https://github.com/user-attachments/assets/8eda700d-07b7-45ef-a3c2-f9a2ef68f266)
 
+When comparing app services to other services, you have less control over the hardware running underneath and over the platform itself but there are great advantages like autoscaling feature and you can scale up to 20 or 100 nodes depending on the pricing tier which gives you pretty good scalability options for a simple web application service. It has a lot of enterprise-grade features so the maintenance is also pretty low.
+
