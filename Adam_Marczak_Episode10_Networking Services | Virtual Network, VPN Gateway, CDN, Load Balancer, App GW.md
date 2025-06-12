@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a646310f-fc0d-4f36-9b27-95801ffb7147)
+![image](https://github.com/user-attachments/assets/05bb5f44-e34f-4f35-b24d-1469825385d1)![image](https://github.com/user-attachments/assets/a646310f-fc0d-4f36-9b27-95801ffb7147)
 
 ![image](https://github.com/user-attachments/assets/78af2a61-8b30-44fa-b5c3-4bcfc1939e32)
 
@@ -34,3 +34,20 @@ Imagine you have two virtual machines within a single virtual network placed in 
 
 
 ## Virtual Network Gateway
+
+Also called **VPN Gateway**. VPN Gateway allows you to connect to your on-premise environments so you can enable your virtual network to talk to the network within your on-premise environments. This communication is done over the public internet but it is entirely encrypted. Additionally, VPN gateway can be also used to connect virtual networks to each other although this is a less common case, it is still able to do that. Remember touse VPN gateway whenever you need to connect on-premise environment to azure over the public internet. Or if you need to implement cross-regional communications of Azure virtual networks.
+
+![image](https://github.com/user-attachments/assets/8afd71c7-5370-4134-990f-34ffcfcc7307)
+
+
+## Azure Load Balancer
+
+Load balancing simply means distribution of the trafiic across multiple resources. So if you have two virtual machines, you can create a load balancer in front and evenly distribute the traffic across those two virtual machines. There are many reasons to do that. One of them is scalability because by adding additional instances, scaling out, you can scale to accommodate much larger workloads versus scaling up where you simply add more power to the machine. The second reason is high availability. If those virtual machines would be a premium virtual machines, by default, from Microsoft you will get three nines (99.9) of SLA. That means each virtual machine is guaranteed to run 99.9% of the time but if you put those virtual machines into separate availability zone and put that in front of the load balancer then Microsoft guarantees 4 nine (99.99%) of SLA. In which ase, you increase SLA and availability for your application by 10x. This is because load balancer automatically checks the health of the application components that its connected to. So if one of the virutal mcachiens stop working, it will redirect the traffic to the second one and the chances of both of them not running is significantly lower than with one virtual machine.
+
+
+![Screenshot 2025-06-13 074004](https://github.com/user-attachments/assets/6effdb2c-2817-4e55-bf91-05768b9ca4c6)
+
+
+When you build larger solutions, you will also separate your application components into tiers. For instance, by separating all the components that are handling web traffic into web tier, and possibly second tier handling all the data management for the application having its own balancer to manage internal traffic. In this case, you would have two load balancers. One with public IP, allowing for public internet traffic to come in - it will be called **public load balancer**. And one without a public IP, just a private IP allowing only the private connectivity between the web tier and data tier and this one would be called **internal load balancer**. 
+
+![image](https://github.com/user-attachments/assets/0ec55eef-ce9a-414e-ad80-c9ebf2628e8e)
