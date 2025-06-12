@@ -92,5 +92,14 @@ This system is an open-source container orchestration platform. It is actually a
 
 ![image](https://github.com/user-attachments/assets/dce9ad0a-cafc-4c6a-bc9f-4814d83dfc75)
 
-When comparing kubernetes service to other services, this is a very sophisticated platform offering and because you are managing the containers and virtualizing operating system, the degree of control is pretty high but it also requires quite  lot of skills from your team, therefore the maintenance is also high and because it has autoscaling feature and can scale upto 100 nodes at the time, the scalability of the solution is pretty good. Because containers have smaller footprint than VMs, you can host more applications using 100 nodes than you can with virtual machines. If we want to reduce the maintenance cost even further, we can move to app services. Main purpose of the service is building web applications whenever those are user facing applications or web services. You 
+When comparing kubernetes service to other services, this is a very sophisticated platform offering and because you are managing the containers and virtualizing operating system, the degree of control is pretty high but it also requires quite  lot of skills from your team, therefore the maintenance is also high and because it has autoscaling feature and can scale upto 100 nodes at the time, the scalability of the solution is pretty good. Because containers have smaller footprint than VMs, you can host more applications using 100 nodes than you can with virtual machines. 
 
+## App Service
+
+If we want to reduce the maintenance cost even further, we can move to app services. Main purpose of the service is building web applications whenever those are user facing applications or web services. You ask developers to prepare a simple deployment package and send it to app service. 
+It is app service's responsibility to deploy this package across multiple nodes and expose this to users. This is really simple service if you compare this diagram to our previous diagrams, there's much less work. There's no need to create any images and store them anywhere, you simply send your code to app service and you're done.
+
+![image](https://github.com/user-attachments/assets/79020de4-7778-441f-8344-d0069715fac7)
+
+
+**Azure App Service** is azure offering for hosting enterprise-grade web applications, another Platfrom as a Services (PaaS) offering, and it supports multiple programming languages and also containers which is great because you can use any commn language on the market that is used to develop web applications. Most likely, app service already supports that language, so if you have skills already available in your teams, you can quickly leverage app service to host applications
