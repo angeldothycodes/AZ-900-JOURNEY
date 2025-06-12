@@ -51,3 +51,17 @@ Load balancing simply means distribution of the trafiic across multiple resource
 When you build larger solutions, you will also separate your application components into tiers. For instance, by separating all the components that are handling web traffic into web tier, and possibly second tier handling all the data management for the application having its own balancer to manage internal traffic. In this case, you would have two load balancers. One with public IP, allowing for public internet traffic to come in - it will be called **public load balancer**. And one without a public IP, just a private IP allowing only the private connectivity between the web tier and data tier and this one would be called **internal load balancer**. 
 
 ![image](https://github.com/user-attachments/assets/0ec55eef-ce9a-414e-ad80-c9ebf2628e8e)
+
+
+
+### Summary
+
+- Azure load balancer allows for even traffic distribution across Azure components and it supports both inbound and outbound scenarios. Both incoming and outgoing traffic. It is used by customers to provide highly available but also highly scalable applications. It supports both TCP and UDP applications. Supports both internal and external traffic with this public and internal load balancer.
+- But Azure Load Balancer is not the only traffic distribution service in Azure
+
+![image](https://github.com/user-attachments/assets/5d114cfd-6d57-4e92-b125-c0ce64938e80)
+
+
+## Application Gateway
+
+If we are talking about traffic disctribution for resources, if that traffic is a web traffic (http traffic), you usually want to replcae a load balancer with application gateway.
