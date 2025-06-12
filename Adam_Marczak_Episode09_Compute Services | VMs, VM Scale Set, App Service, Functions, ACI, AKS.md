@@ -108,7 +108,7 @@ It is app service's responsibility to deploy this package across multiple nodes 
 
 When comparing app services to other services, you have less control over the hardware running underneath and over the platform itself but there are great advantages like autoscaling feature and you can scale up to 20 or 100 nodes depending on the pricing tier which gives you pretty good scalability options for a simple web application service. It has a lot of enterprise-grade features so the maintenance is also pretty low.
 
-## Azure Functions (Funtion Apps)
+## Azure Functions (Function Apps)
 
 This service is similar to app service but the difference is in app services, we were creating a full-fledged web services or web applications but if we want to run a small pieces of code, let's say we have a function that adds two numbers, a and b, and returns a result. If we want to run the small piece of code as a small web service, we again ask developers to prepare a small package and deploy this to function app. Function app similarly to app service will deploy this across multiple nodes and expose this as a web service. This might look very similar to how I present App services moment ago, it is because Azure Functions are based on Azure App Service so they have a lot of same features and a lot of new features that allow you to host your application's pieces of code very effectively.
 
