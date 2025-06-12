@@ -78,3 +78,19 @@ When it comes to container instances, instead of bundling entire system, you jus
 
 
 When comparing container instances to virtual machines and scale sets, you still maintain some degree of control because you are virtualizing operating system so you can install run extra runtimes, extra software but it's still much less than maintaining full-fledged operational system. In case of container instances, there's no autoscaling but the cool thing is that at minimum, you don't need to run any servers so you can have zero nodes running, if you don't need any but at maximum, you can have 20 container groups therefore the scalability of this solution is not that great but it's nothing bad. This service is simple for simple use cases. If you need scalability, there are other services that deliver you that. Service like **Kubernetes Service**
+
+![image](https://github.com/user-attachments/assets/fe1af05f-35b7-438b-a2b7-0f9eb9baab6e)
+
+
+## Azure Kubernetes Service (AKS)
+
+Another service that allows you to work with containers using the same principle. Either hosting your own containers within container repository or using marketplace public repositories. As such kubernetes service can use those images to spread this across nodes. Of course nodes underneath are VMs but they are separated and abstracted from you and kubernetes is managing the deployment of containers across those nodes. As the deployment of containers is finished, kubernetes exposes everything to users or applications through a load balancer and it also gives you the same abilities like a skils set, like static scaling or autoscaling
+
+![image](https://github.com/user-attachments/assets/c45daa53-8ae4-4951-9986-913e1f9d7904)
+
+This system is an open-source container orchestration platform. It is actually available in pretty much any cloud, it's not only in azure but also AWS and Google cloud. This is one of the Platform as a Service (PaaS) offerings in Azure. It is highky scalabale, and highly customizable. While container instances were designed for a simple container deployments, kubernetes service is designed for high scale and highly customizable deployments of containers in the cloud. And because containers are so similar to VMs, pretty much any scenario is supported 
+
+![image](https://github.com/user-attachments/assets/dce9ad0a-cafc-4c6a-bc9f-4814d83dfc75)
+
+When comparing kubernetes service to other services, this is a very sophisticated platform offering and because you are managing the containers and virtualizing operating system, the degree of control is pretty high but it also requires quite  lot of skills from your team, therefore the maintenance is also high and because it has autoscaling feature and can scale upto 100 nodes at the time, the scalability of the solution is pretty good. Because containers have smaller footprint than VMs, you can host more applications using 100 nodes than you can with virtual machines. If we want to reduce the maintenance cost even further, we can move to app services. Main purpose of the service is building web applications whenever those are user facing applications or web services. You 
+
