@@ -141,4 +141,5 @@ Because this server is serverless in nature, therefore it offers the lower degre
 
 - If you have very small services, very small pieces of code that you want to run as web services, try Azure functions. This is so-called function as a service, serverless, and it's designed to build nanoservices and has excellent consumption-based pricing
 
-![Uploading image.png…]()
+
+![Screenshot 2025-06-12 154345](https://github.com/user-attachments/assets/69a65680-9657-4ec3-b248-0590855203e9)
