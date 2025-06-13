@@ -85,4 +85,19 @@ Just remember this is a load balancer that is designed to help you with distribu
 
 ## Content Delivery network (CDN)
 
-CDN is one of those networking services that helps cutomers to build their applications. Let's take a web application as an example, every web application has some static content like Javascript files, style sheets, static pages or images. Normally, if developers don't know about the existence of services like content delivery network, what they will do is bundle this application and put it into app
+CDN is one of those networking services that helps cutomers to build their applications. Let's take a web application as an example, every web application has some static content like Javascript files, style sheets, static pages or images. Normally, if developers don't know about the existence of services like content delivery network, what they will do is bundle this application and put it into app service and host that app service in one of the Azure regions around the world for instance in West U.S., so when a user from alaska tries to connect to our web application, his request will have to go through 1600 miles to get this page and all of the content. If our web page has 50 elements on it, that user has to make 50 requests, 50 separate requests with each having hundred milliseconds delay. This might not be an issue yet but if our users will start connecting from different continents, in this case, the distance they need to cover is much greater. So the latency for every single request they make will be much greater when compared to users connecting from Alaska. To help with that scenario, you ask your developers to upload all the static content into content delivery network allowing service to distribute that content all around the world so that the users will connect to the closest location with their content available reducing the latency but also the workload required by your front-end services
+
+
+### Summary
+Azure CDN allows for delivery of web content to users to minimize latency for web applications so that you can build more scalable applications and minimize the workload required by your front-end services. All the content is spread across multiple POP locations so-called Points of Presence. Microsoft has over 120 locations available worldwide. As you can imagine, this is more than Azure regions available that means there might be points of presence closer to you than there are to the closest Azure region.
+
+![image](https://github.com/user-attachments/assets/2f23d8da-b420-4939-abf1-05ec4c79364a)
+
+
+## Summary of Episode 10
+
+We have **Azure virtual networks**. This is the service that allows us to represent our physical networking in the cloud and allow us to group, filter, and segment the network and all the related resources. Additionally, we've learned about **VPN gateway**. A service that allows us to connect our on-premise networks with the cloud networks and allow them to communicate to each other. Additionally, the service allows us to also connect virtual networks in Azure. Remmeber that **VNET peering** as a feature also allows for that, definitely soething to ponder on.
+We've also learned about two load balancing solutions. One called **Azure Load Balancer** which is designed for non-web traffic for even distribution of that traffic across multiple services and if our traffic is a web-based, then we use appliation gateway to distribute the traffic because it has additional features for filtering and security of web-based traffic. 
+Lastly, we've learned about **Content Delivery Network**, in short CDN. This is the service that distributes and caches the content across multiple POP locations around the world to offload our front-end services but also reduce latency required to deliver the content to our users which helps with scalability of our applications but also give us better user experience 
+
+![image](https://github.com/user-attachments/assets/5707ecce-d77b-4392-921b-602edb128fed)
