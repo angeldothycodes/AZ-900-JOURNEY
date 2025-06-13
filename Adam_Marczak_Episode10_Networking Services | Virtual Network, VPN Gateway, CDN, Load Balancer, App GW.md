@@ -62,6 +62,27 @@ When you build larger solutions, you will also separate your application compone
 ![image](https://github.com/user-attachments/assets/5d114cfd-6d57-4e92-b125-c0ce64938e80)
 
 
-## Application Gateway
 
-If we are talking about traffic disctribution for resources, if that traffic is a web traffic (http traffic), you usually want to replcae a load balancer with application gateway.
+## Azure Application Gateway
+
+
+![image](https://github.com/user-attachments/assets/3ea2afa3-d9e3-4897-a13a-3b0341d76be8)
+
+
+If we are talking about traffic disctribution for resources, if that traffic is a web traffic (http traffic), you usually want to replace a load balancer with application gateway. This is because Application gateway is still a traffic distribution service but it is designed to support web traffic. So simply it has features that allow customers to better manage their web traffic.
+Services like app services can also be used, so those services allow you to redirect traffic to any public IP or address. You are not limited to virtual machines when building scalable distributed applications. In case of building multi-tier application like previously, you would replace that public load balancer with application gateway
+
+![image](https://github.com/user-attachments/assets/9464d73b-2bd7-4598-b5ae-7a1e1b7e2172)
+
+
+### Summary
+Application gateway is your web traffic load balancer in Azure with some features like web application firewall allowing you to scan for all the incoming traffic, redirection capabilities, session affinity when you want to be sure that your users are always directed to the same servers, URL routing, and SSL termination which allows customers to decrypt the traffic on the application gateway and send unencrypted version to the backend services to reduce the processing power required to decrypt every single request going to the backend. Increasing even more the scalability of your solution.
+
+Just remember this is a load balancer that is designed to help you with distribution of web-based traffic
+
+![image](https://github.com/user-attachments/assets/bc010b61-2489-45f5-8e8f-79e2dfd2e523)
+
+
+## Content Delivery network (CDN)
+
+CDN is one of those networking services that helps cutomers to build their applications. Let's take a web application as an example, every web application has some static content like Javascript files, style sheets, static pages or images. Normally, if developers don't know about the existence of services like content delivery network, what they will do is bundle this application and put it into app
