@@ -51,4 +51,4 @@ If you have files that you never plan to access, like a long term backups. Let's
 
 ## Azure Table Storage
   
- 
+This service was designed with semi-structured data in mind so that both users and application can output the semi-structured data form into tables. This table is part of table storage, you can have more than one table because table storage is just like a database where multiple tables are stored with your data. Just remember this is a semi-structured database. So there are no drawings, no schemas, just your data and a simple storage. This kind of databases are also called **noSQL**
