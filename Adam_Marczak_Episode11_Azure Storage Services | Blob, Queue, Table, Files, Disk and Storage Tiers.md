@@ -46,6 +46,9 @@ If you have files that you never plan to access, like a long term backups. Let's
 **Azure Queue Storage** is a service that allows you to store small pieces of data - so called messages. So that you can build scalable asynchronous processing solutions in Azure.
 
 
+![image](https://github.com/user-attachments/assets/34655ab6-c599-43ea-9e42-b7fba5553986)
 
+
+## Azure Table Storage
   
  
