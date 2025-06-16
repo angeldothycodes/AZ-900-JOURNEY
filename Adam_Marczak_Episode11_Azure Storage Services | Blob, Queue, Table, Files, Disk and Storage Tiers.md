@@ -57,4 +57,10 @@ This service was designed with semi-structured data in mind so that both users a
 
 
 ### Summary
-Azure Table storage is one of the storage services for your semi-structured data needs. You can work, insert update, and operate on the data in a semi-structured form. Take note, you use this kind of database when you
+Azure Table storage is one of the storage services for your semi-structured data needs. You can work, insert update, and operate on the data in a semi-structured form. Take note, you use this kind of database when you don't need stuff like foreign joins, foreign keys, relationships, or when you don't need to follow any strict schema. Additionally, this service is designed for fast access. If you will store petabytes of data, you would still get your data within milliseconds if you would use compound key to access that specific rows. It is quite scalable even though it's a simple service. Similarly to blob storage, Microsoft provides many programming interfaces and many SDKs so it's very easy for your developers to use table storage when building solutions in Azure.
+
+![image](https://github.com/user-attachments/assets/96fe81f6-cea5-40cf-a548-d7deee74ff8e)
+
+
+## Azure File Storage
+This service is similar to BLOB storage. As we said, BLOB is synonym for file. In this case, what's the difference between BLOB storage and file storage? let's start with semantic differences. First, in file storage, instead of blobs, you store files. Instead of containers, you have shares. And instead of blob storage, you have file storage. Semantically, they're pretty much identical, they work almost identical. The only difference is the way you acess them. In case of file storage, you access your shares via SMB protocol. This is a simple file share service, you might remember file shares when you go to, for instance, your Windows PC > right-click on your desktop > select Map network drive
