@@ -44,3 +44,13 @@ It's a family of products with a similar capabilities. The one that we learned j
 
 ![image](https://github.com/user-attachments/assets/88542320-dc37-4b8c-988f-b689e583f887)
 
+
+## Summary
+
+The database services that we've learned today are **cosmos db** which is a globally distributed nosql database in the cloud allowing customers to take advantage of low latency, multi-master, which is perfect for building globally distributed applications and serverless applications.
+We've also learned about **Azure SQL database** which is reliable relational database based on SQL sever. 
+We've also learned about **Azure Database for MySQL** which takes advantage of Azure SQL platform offering with MySQL database engine. Similar case for **Postgre SQL**. Azure SQL delivers all the cool features but underneath, it runs on a postgreSQL database engine. Additionally, if you need a fully fledged SQL server, totally managed by Microsoft then you have an option with **Azure SQL managed instance**. This is more pricey option but with more features just like an on-premise SQL server.
+If for some reason you need a total control over the infrastructure, then you can use **SQL server on a VM** which is fully fledged SQL server on infrastructure as a service.
+Lastly, if you're working with big data, you might be interested with **SQL data warehouse**- part of Azure Synapse Analytics which is Massively Power Processing version of the SQL server called Big Data and Big Data Warehousing
+
+![image](https://github.com/user-attachments/assets/73847ee2-1a85-4f14-8cdc-45c8e10ab660)
