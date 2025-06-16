@@ -69,5 +69,14 @@ This service is similar to BLOB storage. As we said, BLOB is synonym for file. I
 Azure File storage is a service that will allow you access files via shared drive protocols. Whether you will use Windows or Linux machines, you can take advantage of file storage service. There are two common scenarios that this service was designed for. First one is extension of the on-premise file shares. If your company already has file shares that are used internally and they just need to extend those file shares with more space, they can leverage file storage to do that.
 Second very common use case is lift-and-shift. Lift-and-shift means that you already have existing applications and you don't want to redesign those applications to take advantage of blob storage but you still want to extend or move files to Azure. In this case, you use Azure file storage to mount it as a local drive, yoou point your application to the local drive, they use native functionalities but in the end, this share is in Azure. So Automatically your files are saved to Azure. This gives to ability to take advantage of Azure features without any need to read these in your existing applications
 
+Pretty much the major difference between file storage:
+- You use file storage if you need that shared drive protocol
+- If not, you design your applications and use blob storage
+
 ![image](https://github.com/user-attachments/assets/00ea12de-264b-4ff3-8a6a-5863ae216ade)
 
+
+## Azure Storage Account
+All the services we tackled on this chapter: blob storage, table storage, queue storage, and file storage are part of the bigger service called **Azure Storage Account**
+
+**Azure Storage Account** is simply a storage of services including
