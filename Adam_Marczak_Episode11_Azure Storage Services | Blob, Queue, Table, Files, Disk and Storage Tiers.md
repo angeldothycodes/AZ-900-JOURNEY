@@ -88,3 +88,28 @@ They are designed to allow customers to store files, messages, and semi-structur
 
 
 ![image](https://github.com/user-attachments/assets/54cdb1fb-9e21-42f8-9330-5ce091b58056)
+
+
+## Azure Disk Storage
+
+![image](https://github.com/user-attachments/assets/01eaa057-c9c2-43f7-a3c0-ab2c01f85253)
+
+
+It is used for virtual machines. When it comes to Windows VM, there are multiple partition- all those partitions are stored on one or more disks. In Azure, this is done via **disk storage service**. This storage service is simply set at disk emulation in the cloud, allowing customer to attach a persistent storage for virtual machines both for Operating Systems and application data.
+Disks in Azure come with different sizes, different types so you can pick either SSD or HDD, and different performance tiers. Of course, the bigger and more performant the disk is, the higher the price. It is still good to have that choice because you can make the choice to grab this slower disk for your non-critical systems and development environments.
+Disk storage allows customers to store their disk in unmanaged or managed form.
+**Unmanaged** means each disk is stored as a file on a blob storage. It's called unmanaged because it is not managed by cloud provider. Customers are responsible for managing those blobs and those drives and the storage accounts. 
+You can also use more popular option which is managed disks that means Microsoft is managing all the blob storage, all the files, and all the services behind the scene. Giving you a separate resource called manage disk which not only hides the complexity of managing the disk themselves but gives you some additional features which is very nice to have
+
+![image](https://github.com/user-attachments/assets/a30c7447-404f-4da9-ba7e-639381fb5e24)
+
+### Summary
+
+**Azure storage account** is highly scalable and highly durable group of services for unstructured and semi-structured management. 
+If you need general purpose file storage that fits pretty much any scenario in Azure, you can use **Azure blob storage**. 
+If you need to take advantage of file shares in the cloud for lift-and-shift scenarios or extension of your on-premise file shares, you can use **Azure File Storage**. Additionally, if you're building scalable asynchronous processing architectures you can use **Azure queue storage** to deliver a service for very small messages and process offloading. 
+If you need to have a small simple yet sclabale NoSQL database in Azure to store your semi-structured data then you can take advantage of **Azure table storage**
+If you have virtual machines and you need to provide a persistent drive for those virtual machines, a simple disk emulation service in the cloud then you can take advantage of **Azure Disk Storage** 
+
+![image](https://github.com/user-attachments/assets/a5799e6a-cb6b-4cc2-990c-644f935081c9)
+
