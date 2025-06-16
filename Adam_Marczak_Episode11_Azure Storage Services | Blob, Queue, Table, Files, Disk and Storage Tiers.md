@@ -79,4 +79,9 @@ Pretty much the major difference between file storage:
 ## Azure Storage Account
 All the services we tackled on this chapter: blob storage, table storage, queue storage, and file storage are part of the bigger service called **Azure Storage Account**
 
-**Azure Storage Account** is simply a storage of services including
+**Azure Storage Account** is simply a storage of services including those four that we just learned right now.
+
+They are designed to allow customers to store files, messages, and semi-structured data in Azure.. very easily, very effectively, and at high scale. That high scale is quite high, up to petabytes of data. It just not scales very high, it also has high durability - eleven 9s (99.99999999%). If you pick the lowest replication on Azure storage account which is locally redundant storage. By default, ths provides eleven 9s of durability. The chance that you will lose you data is significantly low.. almost impossible. If you want, you can pick even better replication settings going up to 69s of durability and by default, this is the cheapest per gigabyte storage in Azure. And if you take advantage of Blob storage tiers, you can get very low price for very large amounts of data.
+
+
+![image](https://github.com/user-attachments/assets/54cdb1fb-9e21-42f8-9330-5ce091b58056)
