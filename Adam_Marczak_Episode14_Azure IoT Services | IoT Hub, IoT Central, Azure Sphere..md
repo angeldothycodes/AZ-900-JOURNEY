@@ -46,4 +46,19 @@ Lastly, this service is actully built on top of **IoT hub** and 30 other azure s
 
 ## Azure Sphere
 
-Azure Sphere is not really a service alone. 
+Azure Sphere is not really a service alone. It's a set of components allowing you to build secure IoT applications.
+Let's say we have washing machines and we're building applications that will run on those washing machines. First thing that Azure Sphere delivers are Azure Sphere Microcontroller units. Simply said, those are simple chips that are built according to Microsoft standards and specifications. Microsoft then delivers this specification to hardware vendors so that they can build their chipsets according to the specification. Additionally, Azure sphere delivers an operating system. Microsoft manages this operating system to make sure that it's always upto date and that this system has the latest security patches applied on top of that. Third thing that Azure Sphere delivers is so-called **Azure Sphere Security Service**, this service is used for a secure communication between the cloud and the devices themselves so that your support team can apply updates to your application through that service but also Microsoft can apply updates to the operating system again through Azure Sphere Security Service. All of that is done to achieve one thing: to build secure end-to-end IoT solutions by creating a standardized certified chips, by creating secure operating system, and providing secure channel to communicate between devices in the cloud.
+
+**Azure Sphere** is something bigger than just a service. It's set of tools for secure IoT solutions.
+
+
+![image](https://github.com/user-attachments/assets/2d09f0f5-eb37-4095-ad60-ca31c9f4018d)
+
+
+## Summary
+
+- IoT hub is a managed service for bi-directional communication of IoT devices in the cloud. It's a platform as a service used to build custom IoT applications but your organization can also leverage existing industry standard-specific templates for building IoT solutions. In that case, they can use **IoT central** which is an IoT application platform with dozens of functionalities for provisioning management and monitoring of IoT solutions. Lastly, we have learned about **Azure Sphere** which is our end-to-end approach for building secure IoT solutions by providing both hardware operating system and communciation channels for securing our IoT solutions
+
+![image](https://github.com/user-attachments/assets/1cf7ac50-fb31-495e-9ef7-f765a0109528)
+
+
