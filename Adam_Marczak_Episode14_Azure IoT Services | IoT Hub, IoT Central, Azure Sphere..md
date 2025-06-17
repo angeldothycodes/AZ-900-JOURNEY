@@ -39,3 +39,11 @@ IoT central is very similar to IoT hub but it works on an entirely different lev
 The key things that you need to know about IoT central is that this is an IoT application platform. It's a software as a service solution that allows you to use industry specific app templates to get out of the box solutions for your IoT devices and manage them at scale in the cloud. Microsoft with the service wants to allow their customers to build IoT solutions without the need to have very deep technical knowledge about IoT solutions. So the main goal of this service is to provide with application templates so you can very easily connect, manage, and monitor your IoT devices at scale.
 Similarly to IoT hub, this service is highly secure, scalable, and very reliable so you can build you applications without worrying about the platform itself.
 Lastly, this service is actully built on top of **IoT hub** and 30 other azure services.
+
+![image](https://github.com/user-attachments/assets/9934615c-d2a9-4deb-b311-e34097b12d83)
+
+
+
+## Azure Sphere
+
+Azure Sphere is not really a service alone. 
