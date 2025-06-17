@@ -27,3 +27,8 @@ Just by looking at this list, we can very easily see that Microsoft created IoT 
 
 ![image](https://github.com/user-attachments/assets/16144ea1-0a12-4b57-9880-4bcc81d221e4)
 
+
+## Azure IoT Central
+
+If building solutions from scratch is not something that your organization wants to do then you should look at Azure IoT central.
+IoT central is very similar to IoT hub but it works on an entirely different level. It still allows for connectivity of your IoT devices with the cloud but **IoT central** as a service provides you a set of template for building applications using a standardized templates. It's
