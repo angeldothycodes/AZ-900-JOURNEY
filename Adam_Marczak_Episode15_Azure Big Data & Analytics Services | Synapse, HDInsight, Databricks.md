@@ -40,7 +40,7 @@ All of that is combined into a single **Studio** experience, a unified experienc
 
 As we were talking about the typical development process, HDInsight can also support pretty much every stage of that process by providing so-called **Big data clusters**. When it comes to HDInsight, there are many clusters available- clusters like Hadoop clusters, Spark, Kafka, HBase, Hive machine learning services or Apache Storm or many others.
 
-In general the idea of the service is to provide you with open source big data technologies from the market, allow you to provision clusters so that Microsoft managess those clusters and you just grab the technology that you need to perform specific tasks that you need. All of these tools server a different purpose but you can use them in combination to support end-to-end development lifecycle for your application.
+In general the idea of the service is to provide you with open source big data technologies from the market, allow you to provision clusters so that Microsoft managess those clusters and you just grab the technology that you need to perform specific tasks that you need. All of these tools serves a different purpose but you can use them in combination to support end-to-end development lifecycle for your application.
 
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/e94ac1a8-8fb6-4ca6-960a-fa65a7238b7e" />
