@@ -30,7 +30,7 @@ In order to talk about Synapse Analytics and its benefits, we need to talk about
 ### Summary
 
 **Azure Synapse Analytics** first of all is big data analytics platform. It's a Platform as a Service (PaaS) offering in Azure. Allowing users data engineers, data scientists to perform data analysis and data transformation over very large data sets and it has mutiple tools baked in. Tool like **Apache Spark** for efficient big data transformations.
-**Synapse SQL** which allows us to use SQL server familiar tools with massively power processing design with dedicated for ad-hoc capacity
+**Synapse SQL** which allows us to use SQL server familiar tools with massively power processing design with dedicated or ad-hoc capacity
 We also have **Synapse Pipelines** which allow you to visually build your ingestion and data transformation workflows 
 All of that is combined into a single **Studio** experience, a unified experience for your data transformation needs.
 
