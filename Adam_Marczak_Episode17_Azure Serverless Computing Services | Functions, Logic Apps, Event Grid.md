@@ -26,6 +26,10 @@ Small pieces of code and host those as web services. In which case, customers cr
 - Lastly, this service supports most of the popular languages and frameworks that are used for building web services. It means no need to learn any new languages to start using Azure Functions.
 
 
+![image](https://github.com/user-attachments/assets/2b0d053e-42c3-40c5-9ca6-2533a0304fd3)
+
+
+
 ## Azure Logic Apps
 
 This service allows to build workflows using a visual interface. Those workflows can represent both business scenarios but also cross-application integrations so you can build a simple step-by-step workflows or you can do something more complex with conditions, you can do loops if yiu need to or you can do parallel runs. All of those scenarios are very easy to implement using Azure logic apps. Additionally, each flow can be triggered by, for instance web request, you can trigger your flows using emails. You can also trigger them based on Office 365 events or you can trigger them based on what is happening in your Azure subscriptions bu there's more. There's over 200 connectors available to you so you can trigger your workflows not only based on Microsoft technologies but also other clouds, pther Software as a Service applications like Salesforce, SAP, etc, etc
@@ -34,9 +38,17 @@ Additionally, all of those 200 connectors allow you to use them within the flow 
 
 
 ![image](https://github.com/user-attachments/assets/133c34e3-f956-443c-9a83-c149387aad7f)
-in our example
+
+
 ### Characteristics
 
-- Aure Logic Apps are serverless enterprise integration service. That mwans we as a customers, we just designed the flows and let Microsoft handle the provisioning and scaling on the underlying infrastructure.
+- Azure Logic Apps are serverless enterprise integration service. That mwans we as a customers, we just designed the flows and let Microsoft handle the provisioning and scaling on the underlying infrastructure.
 
-- Additionally, logic apps come with over 200 connectors. In our example, we are able to connect to Azure Blob storage and the email service without writing a single line of code. This service is specifically designed for the orchestration of both business processes but also integration workloads for our applications, daya, systems, and services. It is a powerful no-code service that means you can build your applications without writing a sinle line of code
+- Additionally, logic apps come with over 200 connectors. In our example, we are able to connect to Azure Blob storage and the email service without writing a single line of code. This service is specifically designed for the orchestration of both business processes but also integration workloads for our applications, data, systems, and services. It is a powerful no-code service that means you can build your applications without writing a single line of code
+
+![image](https://github.com/user-attachments/assets/a01e60a4-f20d-4a57-8111-3d1d17913ab5)
+
+
+## Azure Event Grid
+
+- A service for routing messages, as such there will be a lot of services sending events to event grid. Services like Azure Blob storage maybe Azure subscription with subscription events or even hubs or a custom web application sending.
