@@ -40,3 +40,7 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 
 
 ## Azure DevTest Labs
+
+- A little bit similar to **Azure Machine Learning Service** because it's all about providing a workspace for the users within Azure. User connect to devtest labs and they are able to provision virutal machines. 
+  
+- It is simple as it is. Users like developers and testers coming to **Azure DevTest Labs** where they create virtual machines by choosing what kind of image 
