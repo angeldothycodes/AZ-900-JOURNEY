@@ -34,4 +34,9 @@ Additionally, all of those 200 connectors allow you to use them within the flow 
 
 
 ![image](https://github.com/user-attachments/assets/133c34e3-f956-443c-9a83-c149387aad7f)
+in our example
+### Characteristics
 
+- Aure Logic Apps are serverless enterprise integration service. That mwans we as a customers, we just designed the flows and let Microsoft handle the provisioning and scaling on the underlying infrastructure.
+
+- Additionally, logic apps come with over 200 connectors. In our example, we are able to connect to Azure Blob storage and the email service without writing a single line of code. This service is specifically designed for the orchestration of both business processes but also integration workloads for our applications, daya, systems, and services. It is a powerful no-code service that means you can build your applications without writing a sinle line of code
