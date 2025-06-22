@@ -28,4 +28,10 @@ Small pieces of code and host those as web services. In which case, customers cr
 
 ## Azure Logic Apps
 
-This service allows to build workflows using a visual interface. Those workflows can represent both business scenarios but also cross-application integrations so you can build a simple step-by-step workflows or you can do something more complex with conditions, you can do loops if yiu need to or you can do parallel runs. All of those scenarios are very easy to implement using Azure logic apps. Additionally, each flow can be triggered by, for instance web request, you can trigger your flows using emails. You can also trigger them based on Office 365 events or you can trigger them based on what is happening in your Azure subscriptions bu there's more. There's over 200 connectors available to you so you can trigger your workflows not only based on Microsoft technologies but also other clouds, pther Software as a Service applications like Salesforce, SAP
+This service allows to build workflows using a visual interface. Those workflows can represent both business scenarios but also cross-application integrations so you can build a simple step-by-step workflows or you can do something more complex with conditions, you can do loops if yiu need to or you can do parallel runs. All of those scenarios are very easy to implement using Azure logic apps. Additionally, each flow can be triggered by, for instance web request, you can trigger your flows using emails. You can also trigger them based on Office 365 events or you can trigger them based on what is happening in your Azure subscriptions bu there's more. There's over 200 connectors available to you so you can trigger your workflows not only based on Microsoft technologies but also other clouds, pther Software as a Service applications like Salesforce, SAP, etc, etc
+
+Additionally, all of those 200 connectors allow you to use them within the flow so you can send web requests if you need to maybe send emails or save some files to blob storage. Or maybe instead write data to SQL database
+
+
+![image](https://github.com/user-attachments/assets/133c34e3-f956-443c-9a83-c149387aad7f)
+
