@@ -25,7 +25,18 @@ Features of Azure Devops Service:
 **ALL OF THESE FEATURES ARE COMBINES INTO AZURE DEVOPS**
 And if these features are not enough, any features missing, there is always marketplace with over a thousand available additions to Azure DevOps so you can extend the basic functionalities and customize everything to your needs
 
+![image](https://github.com/user-attachments/assets/fb3edcc4-9fa6-4e65-ac30-d20c1afdfb13)
+
+
 ### Key Characteristics
 
-Azure DevOps is a collection of services that help customers
+Azure DevOps is a collection of services that help customers build solutions with use of devops practices and they do that by providing you with set of services, services like boards for tracking and managing your work on the project, pipelines to build your CI/CD workflows, repos to manage and collaborate on your code, has plans to manage your tests and exploratory testing and manual testing and artifacts to manage all the prject deliverables
 
+If there's anything missing, just go to Marketplace and extend the functionalities of Azure DevOps.
+
+One thing to note here is that **DevOps** originally was called **TFS** (team foundation server) on premises then moved to the cloud where it was called **VSTS** (Visual Studio Team Services) and now, it's called **Azure DevOps**.
+
+![image](https://github.com/user-attachments/assets/d4a01d94-478f-4676-ada2-3bcae5d8a904)
+
+
+## Azure DevTest Labs
