@@ -51,4 +51,29 @@ Additionally, all of those 200 connectors allow you to use them within the flow 
 
 ## Azure Event Grid
 
-- A service for routing messages, as such there will be a lot of services sending events to event grid. Services like Azure Blob storage maybe Azure subscription with subscription events or even hubs or a custom web application sending.
+- A service for routing messages, as such there will be a lot of services sending events to event grid. Services like Azure Blob storage maybe Azure subscription with subscription events or even hubs or a custom web application sending custom events. Those messages are called **topics**. Once **topics** are sent to event grid, event grid will have other services that will subscribe to those messages like Azure Functions, Azure Logic Apps, maybe custom web hooks or storage queues. All of those are so called **subscribers**. The onlya and main purpose of Azure event grid is routing those messages across those services and ensuring successful delivery of those messages to those services
+
+![image](https://github.com/user-attachments/assets/00817570-57a5-4f26-a5fe-618e01fc653a)
+
+### Summary
+Azure event grid is a fully managed serverless event routing service that means we just publish or subscribe to events without worrying about the underlying infrastructure. This uses publish and subscribe model for sending and receiving the messages. It means that because of the serverless nature of the service and because it is very quick, responsive service, it is really designed for event-based applications and those near real-time applications as well. 
+One interesting fact about this service is that it has a support for a lot of built-in events from Azure subscription, if your virtual machine will go down, there will be event flying to Azure event grid that you can react to using your applications. You can react to any event in Azure using Azure Event Grid - if someone creates a virtual machine, that's an event. If it's rescaled virtual machine, that's an event. Provisioning of other resources, again events. You can create applications that will react to changes in your Azure services and Azure subscriptions
+
+![image](https://github.com/user-attachments/assets/d1380483-79ed-46f1-9c9c-1dcbfb81510a)
+
+## SUMMARY
+
+**Azure Functions**
+  - an environment which allows us to build custom web applications for nanoservices and event-based applications using popular frameworks completely serverless
+
+**Azure Logic Apps**
+  - Enterprise integration service allowing you to build our application workloads using visual interface
+
+**Azure Event Grid**
+ - Scalable routing service in Azure for building real-time and event-based applications
+
+
+![image](https://github.com/user-attachments/assets/bdb68c65-b149-49b6-a2f3-3c9d72b117ed)
+
+
+
