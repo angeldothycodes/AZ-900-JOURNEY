@@ -16,3 +16,14 @@ Lastly, there is also a feature of pipelines which allows us to build this entir
 
 ![image](https://github.com/user-attachments/assets/c74c92c5-a05e-4759-8c84-44a8cecc8738)
 
+
+### Summary
+
+- **Azure Machine Learning Service** is an end-to-end cloud-based platform for creating, managing, and publishing of our machine learning models. This is a **Platform as a Service** offering in Azure. A top-level resource in Azure Machine Learning Service is called **Machine Learning Workspace**. Think of it like this: Workspace ties everything together. All the computer resources, all the permissions, all the runs, pipelines, experiments, history, connection to external services like Azure Storage Accounts, Container Registry, Deployments of your model. Literally everything is managed through Azure Machine Learning Workspace.
+  
+- **Machine Learning Studio** is the web portal that we were using for our end-to-end management of the workspace.
+
+- Key features that you will get by using Azure Machine Learning Service are:
+  - notebooks written in Python or R. Automated ML where you can throw a lot of algorithms and tweak some parameters to find the best algorithm and to build the best mode for your data. With Visual designer, you can build your machine learning pipelines without writing a single line of code. You can also manage your data and compute resources. So all the resources to manage and store your data as well as process those models and deploy them as a web services. Lastly, everything is nicely tied into other machine learning pipelines which allow you to orchestrate this model training, deployment and all the management tasks.
+
+![image](https://github.com/user-attachments/assets/e3d0b557-e73b-4f2b-92cc-68ecaa2cfa7b)
