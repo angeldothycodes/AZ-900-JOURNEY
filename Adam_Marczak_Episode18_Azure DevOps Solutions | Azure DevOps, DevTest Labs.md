@@ -22,7 +22,7 @@ Features of Azure Devops Service:
 
 - **Azure Test Plans** which allows us to track our testing progress with manual and exploratory testing tools
 
-**ALL OF THESE FEATURES ARE COMBINES INTO AZURE DEVOPS**
+**ALL OF THESE FEATURES ARE COMBINED INTO AZURE DEVOPS**
 And if these features are not enough, any features missing, there is always marketplace with over a thousand available additions to Azure DevOps so you can extend the basic functionalities and customize everything to your needs
 
 ![image](https://github.com/user-attachments/assets/fb3edcc4-9fa6-4e65-ac30-d20c1afdfb13)
@@ -43,4 +43,4 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 
 - A little bit similar to **Azure Machine Learning Service** because it's all about providing a workspace for the users within Azure. User connect to devtest labs and they are able to provision virutal machines. 
   
-- It is simple as it is. Users like developers and testers coming to **Azure DevTest Labs** where they create virtual machines by choosing what kind of image 
+- It is simple as it is. Users like developers and testers coming to **Azure DevTest Labs** where they create virtual machines by choosing what kind of image they choose for their operating system, their base image, then they additionally install some artifacts like Visual Studio or maybe 7-zip or Git and they can do this configuration for every single VM that they create. You can choose any kind of artifcats they want and any kind of operating systems. The goal here is very simple- DevTest Labs aims to provide users with the ability to create virtual machines at will so they can very quickly test things, develop things, and destroy them as soon as they don't need it. And they provide it within a single concise workspace in Azure. But in order to control the cost and organizational resources, admins can come to Azure DevTest labs and provide sets of policies like which operating system images can be used, what kind of virtual machines are available, what kind pf quotas each user has so how many VMs can each user can provision. All of these will be cost-effective while providing great flexibility for developers and testers.
