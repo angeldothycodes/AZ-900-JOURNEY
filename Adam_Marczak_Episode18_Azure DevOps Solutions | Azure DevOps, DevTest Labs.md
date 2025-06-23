@@ -62,3 +62,6 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 
 ## SUMMARY
 
+- **Azure DevOps** which is our end-to-end platform for building CI/CD pipelines, managing our code, and code versioning, tracking and managing the work, and all project deliverables.
+
+- **Azure DevTest Labs** which is a concise workspace where developers and testers create cloud-based environments for testing and development purposes with some cool stuf 
