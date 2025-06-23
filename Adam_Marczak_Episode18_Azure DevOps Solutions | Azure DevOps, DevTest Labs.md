@@ -56,7 +56,7 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 
 - You can akso share your existing labs and automate everything using custom images and with some pre-made plugins, APIs, and tools. You can automate everything using CI/CD pipelines with tools like Azure Devops so you can get more effective as your organization grows in size.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/adaf31ee-541d-4f20-8df5-7ecd986046cc)
 
 
 
@@ -65,3 +65,6 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 - **Azure DevOps** which is our end-to-end platform for building CI/CD pipelines, managing our code, and code versioning, tracking and managing the work, and all project deliverables.
 
 - **Azure DevTest Labs** which is a concise workspace where developers and testers create cloud-based environments for testing and development purposes with some cool stuff like reusable templates, cost management policies, and multiple integrations
+
+
+![Screenshot 2025-06-23 091346](https://github.com/user-attachments/assets/4b1aec07-9d6f-45c8-a201-82c455ebfab8)
