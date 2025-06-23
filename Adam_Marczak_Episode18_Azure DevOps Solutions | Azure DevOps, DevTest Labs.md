@@ -50,4 +50,15 @@ One thing to note here is that **DevOps** originally was called **TFS** (team fo
 
 ### Key Characteristics
 
-- Azure DevTest Labs is a service within Azure that allows developers and testers to provision
+- Azure DevTest Labs is a service within Azure that allows developers and testers to provision and manage their sandbox environments for testing and development purposes.
+
+- It does it by providing with the ability to create self-managed virtual machines quickly and effectively with some pre-configured templates or additional artifacts like tools, applications, or even custom actions created by your organization. Additionally, you have lab policies which allow you to control the cost for your environments by applying some quotas, sizes, auto-shutdown polices and many others.
+
+- You can akso share your existing labs and automate everything using custom images and with some pre-made plugins, APIs, and tools. You can automate everything using CI/CD pipelines with tools like Azure Devops so you can get more effective as your organization grows in size.
+
+![Uploading image.png…]()
+
+
+
+## SUMMARY
+
