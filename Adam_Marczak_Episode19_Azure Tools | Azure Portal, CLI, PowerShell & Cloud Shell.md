@@ -29,3 +29,26 @@ Just need to install PowerShell modules and you will be able to connect to Azure
 
 **PowerShell in general is a very native approach for IT professionals who are working with Windows Servers in the past but if your background is more on the Linux side, you might prefer to use **Azure CLI** instead**
  
+
+
+## Azure CLI
+
+Just like with PowerShell, you wil use terminal to log into Azure and manage Azure resources but instead of installing modules for PowerShell, you will install CLI. It is just another way of managing Azure resources through terminal
+
+![image](https://github.com/user-attachments/assets/79c1fc06-d4d7-4d30-a8be-f3fbe2ee871c)
+
+
+### Characteristics
+
+![image](https://github.com/user-attachments/assets/99d96e8a-87ae-4d0b-8b20-973567485724)
+
+- In short, Azure CLI is our command line interface for Azure
+- It is also designed for automation just like PowerShell
+- It is multi-platform- it's based on Python. You can use it on any operating system.
+- Similarly to PowerShell as well, it is fairly simple to use because you just type **Az login** to log into Azure, **az group list** to list resource group, **az group create** to create new ones, or **az vm create** to create virtual machine
+
+One important thing to note is that CLI is just a tool for the native terminal so depending on which Operating System terminal you are using, you will have different scripting capabilities so it's quite important decision to make here. In general, you can use either PowerShell or CLI to perform most of the tasks when it comes to Azure but its just a matter of preference. Microsoft wanted to provide you with toolkit so that you can use your existing skills whether you are coming from Windows or more Unix-based environments and integrate with Azure in no time which brings us to our last tool, **Azure Cloud Shell**
+
+## Azure Cloud Shell
+
+Everything we've talked about on this episode is happening on user machine. So users need to use their own browsers or they need to install tools like PowerShell or CLI to perform automations with Azure. There are many scenarios where you simply won't be able to install those tools locally or you don't have access to user machine on a specific time. Microsoft wanted to solve those challenges by providing another environment where all the tools will be pre-installed for you and will always be up-to-date. This extra environment is called **cloud shell**. You can access this through many interfaces. For example, through a web browser by navigating to **shell.azure.com**. There are a lot of cool things about cloud shell environment. For example, it's based on Ubuntu container so you get a lot of additional tools that come with Linux natively. You can use both PowerShell and CLI depending on which you prefer.
