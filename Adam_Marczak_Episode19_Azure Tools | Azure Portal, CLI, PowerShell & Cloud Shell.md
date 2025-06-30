@@ -56,3 +56,8 @@ What's better, this environment is completely free. So you can perform your day-
 Azure cloud shell also comes with a lot of interfaces to use it. You can use it from dedicated shell.azure.com portal, you can also use portal.azure.com with a small integration directly in Azure portal or if you are on the go and you don't have access to your machine or you don't want to open this, you can use mobile application which has a native integration with cloud shell
 
 ![image](https://github.com/user-attachments/assets/21e00229-40e6-41be-adfc-a81bbc7e7949)
+
+
+### Characteristics
+
+![image](https://github.com/user-attachments/assets/1769c93d-664f-4297-ba9b-42e8c6cea50d)
