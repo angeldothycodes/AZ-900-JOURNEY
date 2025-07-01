@@ -45,3 +45,11 @@ You can solve this challenge by using **Application Security Groups**. Grouping 
 
 ![image](https://github.com/user-attachments/assets/6288ed2d-1ab9-4dd5-a7b1-174c3e77c225)
 
+
+![image](https://github.com/user-attachments/assets/ed794542-c38c-4e29-b100-ebfdf77c8b9d)
+
+
+## Summary
+
+
+![image](https://github.com/user-attachments/assets/9b4f8a4c-bbc1-45a7-b981-02ffa4558ceb)
