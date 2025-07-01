@@ -14,3 +14,34 @@ This is where **NETWORK SECURITY GROUPS** come in handly. For instance, place ne
 
 
 ![image](https://github.com/user-attachments/assets/17d0f237-fc0f-4fee-b6e9-65968c24bc37)
+
+
+
+![image](https://github.com/user-attachments/assets/70289a22-ea81-4cda-805a-80e2b7eb924f)
+
+
+# APPLICATION SECURITY GROUPS
+
+Let's say our final configuration will allow the traffic going from the internet to our web services then block the traffic from the internet to our logic server so that only our web applications can connect to the services handling the business logic and then further this, only allowing the business logic web service to call the database servers and block the traffic from the web services directly to database. 
+
+
+![image](https://github.com/user-attachments/assets/dcba768e-1588-4609-9157-d24a68357c42)
+
+
+The internet traffic only reaches our web servers. Web servers will communciate with the business logic servers and business logic servers communicate with our database.
+
+
+![image](https://github.com/user-attachments/assets/0fa481c7-28dd-42c0-ac3e-a882603391e0)
+
+To achieve this using NEtwork Security Groups, we would need to use Static IPs of those machines in each single rule and manage this manually. This of course means a lot of maintenance effort. 
+
+
+![image](https://github.com/user-attachments/assets/b95283ce-a72e-4a4c-9665-07cc1d296cf0)
+
+
+You can solve this challenge by using **Application Security Groups**. Grouping your servers by their business purpose and then using those **Application Security Groups** instead of those static IPs in your network security rules.
+
+
+
+![image](https://github.com/user-attachments/assets/6288ed2d-1ab9-4dd5-a7b1-174c3e77c225)
+
