@@ -61,3 +61,22 @@ Azure cloud shell also comes with a lot of interfaces to use it. You can use it 
 ### Characteristics
 
 ![image](https://github.com/user-attachments/assets/1769c93d-664f-4297-ba9b-42e8c6cea50d)
+
+- **Azure Cloud Shell** is cloud-based scripting environment which is completely free to use and allows us to use both PowerShell and CLI directly in our browsers to connect to Azure and manage other resources.
+- It has a lot of additional tools installed because it is based on Ubuntu machine
+- A lot of client interfaces, you can use Azure portal (portal.azure.com), dedicated portal like shell.azure.com, you can also use visual studio code extension to connect to cloud shell directly from Visual Studio code, you can use Windows terminal, Azure mobile application, or use cloud directly in Microsoft Documentation when you are learning which is also one of the amazing features of cloud shell.
+
+![image](https://github.com/user-attachments/assets/18a220e1-4629-40d2-bf47-eae2b85a9e74)
+
+
+![image](https://github.com/user-attachments/assets/f270c25e-ea29-4a6e-8dcf-51d0ad83e9c9)
+
+
+## Summary of Azure Tools discussed today
+
+- **Azure portal**, our web-based interface for managing Azure platform
+- **Azure CLI**, one of the automation tools for managing Azure resources through terminal
+- If we want to create scripting using PowerShell, we can simply install Azure module and use PowerShell instead. This is just one of the multiple options available to us
+- Lastly, we've learned about the cloud environemnt for scripting which is **Cloud Shell** to perform our day-to-day operations without a need to install anything on our local machines
+
+![image](https://github.com/user-attachments/assets/bccfbe24-5c97-4421-a80f-6865c1980533)
