@@ -31,3 +31,6 @@ If you want, we can add one more route to affect the traffic going to the intern
 
 
 
+![image](https://github.com/user-attachments/assets/48ee5a48-b12b-430a-9d52-d5c48ebbefc1)
+
+
