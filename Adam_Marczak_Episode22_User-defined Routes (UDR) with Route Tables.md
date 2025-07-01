@@ -12,10 +12,22 @@ In Azure, routing is set up by default. That means if we have 2 servers - one a 
 
 
 But if you want to change that behavior, this is where **USER-DEFINED
-ROUTES** come in play. Let's say we have a 3rd server called NVA for Network Virtual Appliance. This is simply a specific optimized virtual machine for certain tasks. In this case, this is a Virtual machine image that was created with a firewall inside. We can use this virtual machine to inspect all of the traffic before it will reach our internal servers. In this case, we can create something called a **route table**. 
+ROUTES** come in play. Let's say we have a 3rd server called NVA for Network Virtual Appliance. This is simply a specific optimized virtual machine for certain tasks. In this case, this is a Virtual machine image that was created with a firewall inside. We can use this virtual machine to inspect all of the traffic before it will reach our internal servers. 
+
+![image](https://github.com/user-attachments/assets/05baf416-32a9-44b8-b7c5-978a1fd545e0)
+
+
+In this case, we can create something called a **route table**. 
 
 ![image](https://github.com/user-attachments/assets/e0ea4b3c-5b38-40b8-aea0-bdd3396b952b)
 
 
 
-**Route Table** allows us to manage and override the default routes in Azure by creating our own routes. For example, by adding one route, we can affect how web server connects to API server by redirecting the traffic to the NVA which will inspect the traffic and forward or deny
+**Route Table** allows us to manage and override the default routes in Azure by creating our own routes. For example, by adding one route, we can affect how web server connects to API server by redirecting the traffic to the NVA which will inspect the traffic and forward or deny that traffic to the API server.
+
+If you want, we can add one more route to affect the traffic going to the internet which will again go through the firewall if we want to.
+
+![image](https://github.com/user-attachments/assets/79416e72-7422-402c-a2a7-1d55000559a1)
+
+
+
