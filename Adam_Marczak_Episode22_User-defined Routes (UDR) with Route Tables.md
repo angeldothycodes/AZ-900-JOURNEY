@@ -31,6 +31,47 @@ If you want, we can add one more route to affect the traffic going to the intern
 
 
 
+
 ![image](https://github.com/user-attachments/assets/48ee5a48-b12b-430a-9d52-d5c48ebbefc1)
 
 
+===============================================
+===============================================
+===============================================
+
+
+
+
+![image](https://github.com/user-attachments/assets/dcb5ad37-2ccf-41df-9930-18fb7b0ab066)
+
+![image](https://github.com/user-attachments/assets/5cf4b943-a1e8-44f5-9096-e14a3e60aa8c)
+
+
+
+![image](https://github.com/user-attachments/assets/fc3d7e9d-8f47-4c27-b355-e0414d322811)
+
+
+
+![image](https://github.com/user-attachments/assets/25c4ac55-0dde-42b0-ab5b-53d41dd16c81)
+
+
+![image](https://github.com/user-attachments/assets/9ca65dee-2864-4f79-9c93-2e46236df3d2)
+
+
+
+![image](https://github.com/user-attachments/assets/89432345-e160-4214-8977-46d806146f2b)
+
+
+![image](https://github.com/user-attachments/assets/ac597f8a-a05f-42aa-a381-5ac1193b1929)
+
+
+
+![image](https://github.com/user-attachments/assets/df7209cf-e05d-4be2-86af-5499b44d26e2)
+
+
+
+![image](https://github.com/user-attachments/assets/b4912bb6-5725-498d-b1f6-041c63a4641a)
+
+
+
+![image](https://github.com/user-attachments/assets/ffb1ab5e-3aad-4595-9d46-245ed861f606)
