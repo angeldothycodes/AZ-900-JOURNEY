@@ -11,5 +11,11 @@ In Azure, routing is set up by default. That means if we have 2 servers - one a 
 ![image](https://github.com/user-attachments/assets/cd19cb40-3ce6-4d60-9dd2-f1973a68f863)
 
 
-But if you want to change that beahvior, this is where **USER-DEFINED
-ROUTES** come in play. Let's say we have a 3rd server called NVA for Network Virtual Appliance. This is simply a specific optimized virtual machine
+But if you want to change that behavior, this is where **USER-DEFINED
+ROUTES** come in play. Let's say we have a 3rd server called NVA for Network Virtual Appliance. This is simply a specific optimized virtual machine for certain tasks. In this case, this is a Virtual machine image that was created with a firewall inside. We can use this virtual machine to inspect all of the traffic before it will reach our internal servers. In this case, we can create something called a **route table**. 
+
+![image](https://github.com/user-attachments/assets/e0ea4b3c-5b38-40b8-aea0-bdd3396b952b)
+
+
+
+**Route Table** allows us to manage and override the default routes in Azure by creating our own routes. For example, by adding one route, we can affect how web server connects to API server by redirecting the traffic to the NVA which will inspect the traffic and forward or deny
