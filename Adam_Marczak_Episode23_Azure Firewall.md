@@ -10,4 +10,4 @@ In this episde, we will talk about service from Azure to provide us with that fu
 
 # Azure Firewall
 
-From the last episode, we had a scenario where we had three servers and we used route tables to route the traffic from
+From the last episode, we had a scenario where we had three servers and we used route tables to route the traffic from our web servers to our virtual appliance which had a firewall installed but the problem with this design is that we had to manage all of that infrastructure and the firewall configuration from within that virutal machine. Instead of this, we can employ Azure service called Azure
