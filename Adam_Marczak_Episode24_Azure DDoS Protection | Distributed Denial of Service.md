@@ -30,7 +30,8 @@ If this scenario happened in Azure and our web server was hosted on one of Azure
 
 ## Summary
 
-![Uploading image.png…]()
+
+![Screenshot 2025-07-03 091738](https://github.com/user-attachments/assets/33292008-09b0-42e9-bbae-ed49927e1d79)
 
 
 This service is our Distributed Denial of Service protection in Azure. It was designed to do 2 things:
