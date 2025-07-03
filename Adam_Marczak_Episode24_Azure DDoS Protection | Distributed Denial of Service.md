@@ -30,6 +30,9 @@ If this scenario happened in Azure and our web server was hosted on one of Azure
 
 ## Summary
 
+![Uploading image.png…]()
+
+
 This service is our Distributed Denial of Service protection in Azure. It was designed to do 2 things:
 
 > Detect malicious traffic coming from the attackers while still alowing our legitimate users to connect to our services
@@ -39,4 +42,10 @@ This service is our Distributed Denial of Service protection in Azure. It was de
 
 As I mentioned previously, DDoS protection has 2 tiers:
 
-> **Basic** which is automatically enabled for all Azure services. If you use any Azure services which are exposed to a public internet and could be targeted by DDoS attack, those are automatically protected by the basic tier of Azure DDoS protection
+> **Basic** which is automatically enabled for all Azure services. If you use any Azure services which are exposed to a public internet and could be targeted by DDoS attack, those are automatically protected by the basic tier of Azure DDoS protection.
+
+> The **Standard** tier which provides additional mitigation and monitoring capabilities for all of the resources which are located within Azure Virtual Networks.
+
+**Standard** tier uses machine learning, it uses that to analyze the traffic patterns for your application for better accuracy.
+
+In general, standard is for those more high-value applications and as 
