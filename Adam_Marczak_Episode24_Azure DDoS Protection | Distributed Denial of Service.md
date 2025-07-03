@@ -26,3 +26,17 @@ This is where **Azure DDoS Protection** comes in
 If this scenario happened in Azure and our web server was hosted on one of Azure services, let's say Azure App Service, then in front of Azure App Service there would be a DDoS protection service which would filter the malicious traffic out and let the legitimate users in. One of the best things about DDoS protection is that the basic plan for DDoS protection comes with all of the Azure services by default. You don't even pay anything extra. It's already included in the price of that service but if you need more protection, this service comes with a standard plan which allows you to protect your application from some more sophisticated attacks. 
 
 ![image](https://github.com/user-attachments/assets/34f0189a-3407-42c4-8938-f28c5630b95e)
+
+
+## Summary
+
+This service is our Distributed Denial of Service protection in Azure. It was designed to do 2 things:
+
+> Detect malicious traffic coming from the attackers while still alowing our legitimate users to connect to our services
+
+> but also to prevent customers from paying more if they have auto-scaling environments. If you think about it, if attacker will try to attack your service with hunders of servers. All of that traffic might cause auto-scaling features to create new servers in your application and you will pay more.
+
+
+As I mentioned previously, DDoS protection has 2 tiers:
+
+> **Basic** which is automatically enabled for all Azure services. If you use any Azure services which are exposed to a public internet and could be targeted by DDoS attack, those are automatically protected by the basic tier of Azure DDoS protection
