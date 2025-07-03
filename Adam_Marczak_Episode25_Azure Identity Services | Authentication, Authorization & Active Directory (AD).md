@@ -31,3 +31,16 @@ It manages your users, groups, licenses, and access to those services. Lastly, y
 Azure AD is quite powerful service.
 
 ![image](https://github.com/user-attachments/assets/f4c00e03-4adf-4c8b-81e5-640bdcdf8170)
+
+
+![image](https://github.com/user-attachments/assets/88b78c82-b2ec-4938-a097-a0e2fe80694d)
+
+
+## Multi-factor Authentication
+
+![image](https://github.com/user-attachments/assets/d369d0a1-2a86-4def-8434-d8fe5aff88ca)
+
+
+The times that we live in right now, providing username and password is simply not enough. Servers will need more credentials, more authentication factors from their users in order to provide their identity. For example, providing a code that was sent to their mobile phones. This type of process is called multi-factor authentication. It's a process of presenting two or more pieces of evidence factors to prove one's identity
+
+![image](https://github.com/user-attachments/assets/3650617a-3585-4245-a716-814bc35d06aa)
