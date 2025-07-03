@@ -23,7 +23,7 @@ This is where **Azure DDoS Protection** comes in
 <img width="417" alt="image" src="https://github.com/user-attachments/assets/4dd1bd4a-57db-4631-bf22-5af4855421e2" />
 
 
-If this scenario happened in Azure and our web server was hosted on one of Azure services, let's say Azure App Service, then in front of Azure App Service there would be a DDoS protection service which would filter the malicious traffic out and let the legitimate users in. One of the best things about DDoS protection is that the basic plan for DDoS protection comes with all of the Azure services by default. You don't even pay anything extra. It's already included in the price of that service but if you need more protection, this service comes with a standard plan which allows you to protect your application from some more sophisticated attacks. 
+If this scenario happened in Azure and our web server was hosted on one of Azure services, let's say Azure App Service, then in front of Azure App Service there would be a DDoS protection service which would filter the malicious traffic out and let the legitimate users in. **One of the best things about DDoS protection is that the basic plan for DDoS protection comes with all of the Azure services by default.** You don't even pay anything extra. It's already included in the price of that service **but if you need more protection, this service comes with a standard plan which allows you to protect your application from some more sophisticated attacks.**
 
 ![image](https://github.com/user-attachments/assets/34f0189a-3407-42c4-8938-f28c5630b95e)
 
