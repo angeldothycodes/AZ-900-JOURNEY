@@ -19,3 +19,5 @@ Instead of this, we can employ Azure service called **Azure Firewall**. A manage
 
 ![image](https://github.com/user-attachments/assets/103f504b-9a2f-4eb1-a79e-8b37f024714b)
 
+
+![image](https://github.com/user-attachments/assets/e2c9f7e4-4c55-4099-a079-141b0e2e7067)
