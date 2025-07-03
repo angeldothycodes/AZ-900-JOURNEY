@@ -21,6 +21,13 @@ This process of ensuring that only authenticated identities get access to the re
 ![image](https://github.com/user-attachments/assets/656d6e2c-54c0-43fe-8904-4be7aa70c24f)
 
 
-Things like controlling, verifying, tracking, and managing access to authorized users and applications is called **access management**
+# Azure Active Directory
+Things like controlling, verifying, tracking, and managing access to authorized users and applications is called **access management** and here comes Azure Active Directory.
 
 ![image](https://github.com/user-attachments/assets/018012e5-05f0-4a23-a85c-262c55024627)
+
+So far in our portal when we, as a users, were connecting to Azure and managing our subscriptions, our resources like VMs, databases, and resource groups went through Azure AD. Not only Azure AD is storing our Azure accounts but also is granting permissions to access Azure resources and it governs all the access to those specific resources. It's worth noting that Azure AD doesn't only work with Azure platform. If you are using one of the live.com services like Outlook or Onedrive, again your user account on live.com is also stored in Azure AD and Azure AD is governing access to those services. If you're using your organizational resources like Onedrive for business, Sharepoint, Power BI, Teams, or any other product from Office 365 platform, again, you are going through Azure AD.
+It manages your users, groups, licenses, and access to those services. Lastly, you can even extend your own applications with authorization and authentication features of Azure AD (Active Directory). 
+Azure AD is quite powerful service.
+
+![image](https://github.com/user-attachments/assets/f4c00e03-4adf-4c8b-81e5-640bdcdf8170)
