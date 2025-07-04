@@ -15,4 +15,8 @@ Those two are just examples. In reality, there's plenty of other scenarios where
 
 ![image](https://github.com/user-attachments/assets/7f4926c0-2d89-4be9-9447-bc67103f3f1b)
 
-That's pretty much what Azure Key Vaut is, it's a secure storage for your application keys, secrets, and certificates.
+That's pretty much what Azure Key Vault is, it's a secure storage for your application keys, secrets, and certificates.
+
+
+![image](https://github.com/user-attachments/assets/ebb176ef-de90-4c96-a512-737fd38de811)
+
