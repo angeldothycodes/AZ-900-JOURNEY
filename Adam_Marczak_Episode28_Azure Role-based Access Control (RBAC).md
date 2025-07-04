@@ -12,3 +12,9 @@ For all of those services, you can perform certain actions: create a disk, updat
 ![image](https://github.com/user-attachments/assets/8d1ea739-d7d7-415e-b812-a48464c441de)
 
 **Action** as the name suggests defines what can be done with a certain type of service. Potentially, you could assign each specific action to users and applications to allow them to manage Azure resources. But it would be time consuming because there are literally hundres or even thousands of actions that can be performed in Azure. As such, it is easier to create a bundles of those actions so you can combine the actions that you are interested in like update disk, start and stop VM, and attach disk, and create a role called Virtual Machine operator. You can create as many rolse as you want for your organization. You can fine-grain your permissions for your applications and for your users however you need. All of those are **roles**. Azure comes with a lot of built-in roles, allowing you to manage your access to your resources and cover the most common scenarios very easily.
+
+![image](https://github.com/user-attachments/assets/9a463e65-9601-4b74-b8f7-352faa2de229)
+
+A **role** in Azure, a so-called role definition is simply a collection of actions that can be assigned to user or application identity and it will define which actions can be performed by that specific identity. 
+
+A **Role definition** answers the question: what can be done? Which actions can you perform on Azure 
