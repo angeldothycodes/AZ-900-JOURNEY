@@ -4,4 +4,4 @@ This epsiode will talk about how Azure manages access to your resources with som
 
 In previous episode, we've talked about how Azure Active Directory is a centralized service for identity and access management. That access management for Azure resources is done with role-based access control feature. 
 
-To better understand how 
+To better understand how this works, let's start with what are roles
