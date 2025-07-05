@@ -26,3 +26,6 @@ In Azure, the normal hierarchy goes from **Management Group > Subscription > Res
 The highest level that you can apply lock to is at subscription level. In this case, the lock will affect all of the resource group and the resoruces within that specific subscription. You can apply resource lock on a resource group level or on the individual resources.
 
 One of the most common use cases for using locks is locking the production services which contain your data. Because if you delete a storage account, Microsoft won't be able to recover that. All of the data that you store on the storage account will be lost.
+
+![image](https://github.com/user-attachments/assets/d9909e36-d2fa-4072-a3f4-9583cf6cc60e)
+
