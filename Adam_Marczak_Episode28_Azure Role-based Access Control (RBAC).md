@@ -17,4 +17,12 @@ For all of those services, you can perform certain actions: create a disk, updat
 
 A **role** in Azure, a so-called role definition is simply a collection of actions that can be assigned to user or application identity and it will define which actions can be performed by that specific identity. 
 
-A **Role definition** answers the question: what can be done? Which actions can you perform on Azure 
+A **Role definition** answers the question: what can be done? Which actions can you perform on Azure Resources.
+Which brings us to the second topic. We already said the role needs to be assigned to identity. 
+
+In this case, identities are so-called **Security Prinicpal**- objects with an Azure Active Directory that represent users or applications. Those could be **users** or **groups of users**. You can also assign roles to **service principals**, application accounts in Azure or application accounts that are tied to a specific service called **manage identity**. **All those are called security principals** and they can be assigned a role.
+
+![image](https://github.com/user-attachments/assets/5e168bb3-874e-41bd-96ed-2ff6e8cc1680)
+
+
+Let's say we have user called
