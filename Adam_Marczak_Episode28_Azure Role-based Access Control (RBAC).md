@@ -40,5 +40,13 @@ In this case:
 
 A **Role** answers the question **what can be done?**
 
-![Uploading image.png…]()
+![Screenshot 2025-07-05 110554](https://github.com/user-attachments/assets/9adfa8d2-1dc4-4228-bd38-b6746611f121)
+
+
+Additionally, a role needs to be assigned to a scope. Where exactly those actions can be taken. Azure is organized in a hierarchy and a top-level object in Azure is called Management Group which allows you to group multiple subscriptions or multiple management groups. A **Subscription** is a top-level billing object so most of us will have a subscription asset our top level resource in Azure when we purchase our Azure subscriptions. Under each subscription, you will have multiple resource groups and since resource groups are a logical container for resources, under them you will have your own resources. When you assign a role to a scope, you can assign it any level.
+In this case, if you assign it on a top-level, on management group level, that role will be inherited by all the child resources. If you assign a role on a management group level, that role will be propagated acroos all of these subscriptions, all of the resource groups, and all of the resources within this management group
  
+![image](https://github.com/user-attachments/assets/56da0de5-52aa-495e-9237-d20157c92818)
+
+
+If you decide to assign it on subscription level,
