@@ -78,3 +78,6 @@ In this case, you can read it from the top to bottom. Every action, everything c
 These three things are combined into something called **role asignment**. A **role assignment** is simply a combination of role definition, security principle, and the scope.
 
 ![image](https://github.com/user-attachments/assets/8876aaf7-8806-4205-af69-a17c5f1677f8)
+
+
+![image](https://github.com/user-attachments/assets/d05a8527-d508-4d29-9995-00123ff49423)
