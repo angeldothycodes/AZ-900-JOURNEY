@@ -49,4 +49,32 @@ In this case, if you assign it on a top-level, on management group level, that r
 ![image](https://github.com/user-attachments/assets/56da0de5-52aa-495e-9237-d20157c92818)
 
 
-If you decide to assign it on subscription level,
+If you decide to assign it on subscription level, it will affect only resource groups and resources within that subscription.
+
+![image](https://github.com/user-attachments/assets/8c7d326f-59d8-48c6-94b2-5c673adfda78)
+
+If you assign it in a resource group-level, the same thing applies. 
+
+![image](https://github.com/user-attachments/assets/79884d8f-37bf-4c0e-a1ad-7b56a3ef3fbf)
+
+
+You can assign it on any level that you want, even down to a resource level. You can even give me an access to your specific virtual machine or specific database only. And all of those are called **Scopes**
+
+![image](https://github.com/user-attachments/assets/367d217b-a625-4c24-95ea-15c9cecd7384)
+
+**Scope** is simply one or more Azure resources that the access is applied to. In that case, **scope assignment** answers the question **where it can be done?**.
+
+![image](https://github.com/user-attachments/assets/dfdb82a2-2702-4249-836e-5b234e9ee188)
+
+
+Let's follow this with an example:
+
+**What can be done?** 
+If you assign an **owner role** that means everything can be done, all the actions within Azure can be taken.
+By **Who can do it?**, in this case if you assign it to user that means Adam can do everything.
+The last question is **Where it can be done?**. Let's say you assign it to a virtual machine resource called DEV-VM.
+In this case, you can read it from the top to bottom. Every action, everything can be performed by Adam on the DEV-VM virtual machine.
+
+These three things are combined into something called **role asignment**. A **role assignment** is simply a combination of role definition, security principle, and the scope.
+
+![image](https://github.com/user-attachments/assets/8876aaf7-8806-4205-af69-a17c5f1677f8)
