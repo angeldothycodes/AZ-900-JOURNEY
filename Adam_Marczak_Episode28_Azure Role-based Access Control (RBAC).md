@@ -25,4 +25,20 @@ In this case, identities are so-called **Security Prinicpal**- objects with an A
 ![image](https://github.com/user-attachments/assets/5e168bb3-874e-41bd-96ed-2ff6e8cc1680)
 
 
-Let's say we have user called
+Let's say we have user called Adam. We can assign roles to Adam, let's say we can assign him a Virtual machine and database operator role so that Adam can perform support and operation tasks effectively. You can combine as many roles as you need to fit your needs. It is a common practice in Azure to give multiple roles to users and groups so that you can find great permissions and only grant the least privilege required to perform certain actions for specific usrs. You can also assign to Tom, let's say, a web developer if he is developing web applications. Or assign it to a group, in this case, a DB operator will be assigned to support L1 group so that both Jess and Pete who are part of this group would get that role assigned. 
+
+It is quite important to understand that assigning a role to a group will affect all that users within that group. 
+Those are exactly the **Security Principals** that we've been talking about.
+
+![image](https://github.com/user-attachments/assets/a3659bf0-b2ca-4799-ae8f-da269f7dc0f0)
+
+
+A **Security Principals** is an Azure Object and identity that can be assigned a role and those identity objects can be users, groups, or applications.
+
+In this case:
+**security principle** assignment **answers the question who can do it**. 
+
+A **Role** answers the question **what can be done?**
+
+![Uploading image.png…]()
+ 
