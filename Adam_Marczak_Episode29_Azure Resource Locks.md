@@ -20,3 +20,9 @@ Instead of creating locks on a specific resources, you can create a resource loc
 In this case, resource lock of type delete will prevent deletion of any resource within this resource group.
 
 In Azure, the normal hierarchy goes from **Management Group > Subscription > Resource Group > Resources/ Individual Resources**
+
+![image](https://github.com/user-attachments/assets/892828dd-adeb-424a-9a76-14047a17e695)
+
+The highest level that you can apply lock to is at subscription level. In this case, the lock will affect all of the resource group and the resoruces within that specific subscription. You can apply resource lock on a resource group level or on the individual resources.
+
+One of the most common use cases for using locks is locking the production services which contain your data. Because if you delete a storage account, Microsoft won't be able to recover that. All of the data that you store on the storage account will be lost.
