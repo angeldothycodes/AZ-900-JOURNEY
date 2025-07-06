@@ -12,3 +12,5 @@ But there's one more thing that Azure does before creating that service which is
 ![image](https://github.com/user-attachments/assets/16b92139-5750-4915-8c77-9cade1d6c331)
 
 For example, let's say we have a company and our company has some data sovereignty requirements that needs to be met in order to create aplications. Let's say because of the security policy our data might never be processed outside of the German borders, to do that we need to ensure that all of our services that will be created in Azure will be in location Germany.
+
+To do that we can create Azure Policy. We create a policy in which we'll check for certain other properties. In this case, location. Then we can create a rule and check whether location is Germany then we can allow for the deployment but if value is anything else then deny the deployment. This is called **Policy Definition**. In your Azure environment, you can create as many policy definitions as you want in order to match your internal standards.
