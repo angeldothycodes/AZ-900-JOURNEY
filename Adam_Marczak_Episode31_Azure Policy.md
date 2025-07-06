@@ -31,3 +31,6 @@ What's important to notice is that policies do not check for user permissions. T
 In case of Azure policy, we check for resource properties. We focus on the definition of our resources so we can make sure that our resources are compliant with our internal standards. When it comes to policy definitions, the decision that you make either allow, deny  or any other is called **Policy Effect** and there are more than just two. 
 
 ![image](https://github.com/user-attachments/assets/a96ffa5b-ac86-40c5-8838-e6b74a2849c8)
+
+
+![image](https://github.com/user-attachments/assets/58530981-3d0e-42c7-932c-7e23e5589162)
