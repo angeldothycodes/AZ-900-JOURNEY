@@ -1,1 +1,5 @@
+![image](https://github.com/user-attachments/assets/438f6b0f-c7e2-4396-a414-2e8f9187c9df)
 
+Objective is to talk about what Azure policy is and what are the typical scenarios in which you would want to use Azure Policy in your own Azure environment. 
+
+As we were progressing throughout all of our episodes, we've learned that we are a customers of Azure and as customers, we go to Azure portal to create Azure services. We do that by specifying the common properties for each service. We specify the type of the service that we want, let's say an App Service which can host our web applications, a location which is also called **Azure Region**, in this case German and other common properties for specific services, let's say SKU. When we choose all of those properties, we send a request to Azure. We do that through either Azure portal or we can do it through Azure PowerShell CLI or any other tool of our choosing. What Azure does first is validating this request. Azure will check whether the service is a proper service, did we fill all the required properties
