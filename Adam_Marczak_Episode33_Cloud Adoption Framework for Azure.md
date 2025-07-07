@@ -27,6 +27,6 @@ Another motivation trigger is called **innovation**. In this category, you want 
 
 ![image](https://github.com/user-attachments/assets/05074db0-47a7-4569-95fb-c591bd3139b5)
 
-**b.** Once we understand why move, the next thing you need to do is so-called **business outcomes**. In the **business outcomes**, you want to answer the questions **what to measure**
+**b.** Once we understand why move, the next thing you need to do is so-called **business outcomes**. In the **business outcomes**, you want to answer the questions **what to measure** so what would be your criteria of success that would support your move to the cloud. This measure has to be a defined, concise observable outcome for your company. Typical things might include an increase in revenue and profit or cost reduction or maybe something more business oriented like having a global access and 
 
 
