@@ -44,5 +44,5 @@ Once you start deploying things to Azure, **Azure Cost Management** will give yo
 
 In the **planning phase** there are again few steps that we need to follow. 
 
-**a.** The first step is **Digital Estate**. This is so-called **investory of assets**. You want to review what you currently have in your company and what you should do with it. And that decision, that rationalization is decided bases on the **five R's** of rationalization rule. For each digital asset that you will find in your company, you want to assign one R. First, we have **rehost**. **Rehost** means that we take existing application and we move it to the cloud without any changes
+**a.** The first step is **Digital Estate**. This is so-called **investory of assets**. You want to review what you currently have in your company and what you should do with it. And that decision, that rationalization is decided bases on the **five R's** of rationalization rule. For each digital asset that you will find in your company, you want to assign one R. First, we have **rehost**. **Rehost** means that we take existing application and we move it to the cloud without any changes. This typically means move existing applications into infrastructure as a service (IaaS)- deploy into virtual machine or a container. Another *R*
 
