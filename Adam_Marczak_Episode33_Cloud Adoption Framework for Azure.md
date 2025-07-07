@@ -17,5 +17,9 @@ Before we move to the framework itself, let's start with **what cloud adoption i
 ![image](https://github.com/user-attachments/assets/db9116e4-821f-4081-bebc-ac66f9a547ec)
 
 
-**Cloud adoption framework** is divided into stages. The first stage we'll look at today is called **Strategy**. 
-**Strategy** is simply building organizational
+**Cloud adoption framework** is divided into stages:
+
+1. The first stage we'll look at today is called **Strategy**. 
+**Strategy** is simply building organizational alignment for moving to the cloud, to begin cloud adoption.
+
+The first step step in the strategy is called **motivations**. During this step, you want to answer the question **why move?** As such, you want to meet with your key stakeholders and executives in your company to document what are the motivations behind the cloud adoption. To do that you need to understand what are your motivation triggers. The most common motivation triggers are either migration triggers
