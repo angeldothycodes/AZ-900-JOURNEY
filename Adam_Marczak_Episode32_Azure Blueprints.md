@@ -24,3 +24,7 @@ In high level, this is what the service is for. When it comes to functionality i
 
 
 ![image](https://github.com/user-attachments/assets/c99fb3c4-2c77-4ba1-ae11-999f8b8eaf69)
+
+
+![image](https://github.com/user-attachments/assets/9d578706-4493-48fe-9132-cb730d38ece1)
+
