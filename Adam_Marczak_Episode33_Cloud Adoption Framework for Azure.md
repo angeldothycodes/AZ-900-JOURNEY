@@ -27,6 +27,22 @@ Another motivation trigger is called **innovation**. In this category, you want 
 
 ![image](https://github.com/user-attachments/assets/05074db0-47a7-4569-95fb-c591bd3139b5)
 
-**b.** Once we understand why move, the next thing you need to do is so-called **business outcomes**. In the **business outcomes**, you want to answer the questions **what to measure** so what would be your criteria of success that would support your move to the cloud. This measure has to be a defined, concise observable outcome for your company. Typical things might include an increase in revenue and profit or cost reduction or maybe something more business oriented like having a global access and 
+**b.** Once we understand why move, the next thing you need to do is so-called **business outcomes**. In the **business outcomes**, you want to answer the questions **what to measure** so what would be your criteria of success that would support your move to the cloud. This measure has to be a defined, concise observable outcome for your company. Typical things might include an increase in revenue and profit or cost reduction or maybe something more business oriented like having a global access and reaching new markets but it is important that this measure can be calculated and can be observed s that you can define it and track it. In this process, you will want to meet with your business leaders from the finance, IT infrastructure, and application groups. 
 
+![image](https://github.com/user-attachments/assets/adf184b5-922d-4cfc-b643-7419ef4ebea2)
+
+**c.** When we know what to measure and why do we move to the cloud, next thing is business justification. During this step, we need to understand what is my return of investment because your company is there to make money and it is important to track it and this is what this step is all about. As part of the business justification, you will want to develop a business case that will create a financial model that supports both motivations and the outcomes. This business justification will use the input from the two previous steps. There are many tools provided by Microsoft that supports you in the process of building this financial model. For example, a persone like a CFO (chief financial officer) in your company might want to use **Azure TCO** which stands for **Total Cost of Ownership calculator** to calculate the cost of your current on-premise infrastructure. With Azure pricing calculator, you can estimate the monthly cost of Azure Infrastructure. 
+Once you start deploying things to Azure, **Azure Cost Management** will give you a full visibility on the existing resources and their cost. 
+
+![image](https://github.com/user-attachments/assets/af9fdc90-d9f1-4f62-83b9-8716d55dae17)
+
+**d.** Lastly, we want to decide on the **First Project**. This first project will help you align your motivations and technical efforts. To choose the right first project, you need to follow **two criterias**, first criteria is so-called **business criteria**. In here, you want to find a project that is first of all currently operating. The project that is constantly working your company na dhas dedicated owner, but this is very important that this owner and this application has a strong motivation to move to the cloud because it sees its benefits. This is important because the engagement of the owner will be very important cross every single step of the process. Additionally, there are **technical criteria**. You want to find a project that has minimum amount of dependencies and assets. This is because if you choose a project that is too big, it will take you too long to validate your strategy.
+
+![image](https://github.com/user-attachments/assets/46f95a67-3247-4d0b-a1c5-7e573561f6f8)
+
+**In summary, our first stage, **strategy** is about defining business justification and the outcomes. Once the stage is completed, we move the **planning phase**.
+
+In the **planning phase** there are again few steps that we need to follow. 
+
+**a.** The first step is **Digital Estate**. This is so-called **investory of assets**. You want to review what you currently have in your company and what you should do with it. And that decision, that rationalization is decided bases on the **five R's** of rationalization rule. For each digital asset that you will find in your company, you want to assign one R. First, we have **rehost**. **Rehost** means that we take existing application and we move it to the cloud without any changes
 
