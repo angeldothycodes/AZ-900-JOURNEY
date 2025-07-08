@@ -91,7 +91,8 @@ Once the landing zone is created, you want to extend it even further (**Extend L
 
 ![image](https://github.com/user-attachments/assets/e1cd34a0-8c9b-4130-aef1-b526a6ed8294)
 
-![image](https://github.com/user-attachments/assets/af543cae-b687-4274-8208-ad732395eb59)
+
+![image](https://github.com/user-attachments/assets/40027404-545a-4ac3-b9d4-67522a3cef9a)
 
 
 
