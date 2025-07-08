@@ -60,6 +60,9 @@ In the **planning phase** there are again few steps that we need to follow.
 
 **5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings. Maybe there is offering that completely replaces the functionality that your current application provides. In which case you might want to drop the current application and take the Software as a Service offering. Basically, in your company go though every project that you have, assign one of those **Rs** for every project that you can and then create a plan out of this.
 
+![image](https://github.com/user-attachments/assets/5ffed7dc-d84b-481b-b9b0-cf529304162b)
+
+
 
 **B.**
 
@@ -77,6 +80,9 @@ Once you do all those things, simply put it into so-called **Cloud Adoption Plan
 
 In the planning stage, we want to create actionable plan for our cloud adoption. From there, we move to the next stage called **ready**.
 
+![image](https://github.com/user-attachments/assets/6f39957a-ea3d-4600-a09c-eaacddf4a522)
+
+
 # READY
 
 Readiness stage is all about preparing your first Azure environment. To do that, you start with **Azure Setup Guide**. You read Azure documentation on how the initial environment should look like. You want to become familiar with the tools and approaches that will help you create this first Azure Environment. Also, at this stage, you will want to choose which type of Azure subscription should you use and which is best for yur company. Once you have everything prepared, you start creating your first Azure environment. This is so-called **Azure Landing Zone**, this will be your first Azure environment. It will be completely created out of Microsoft guidelines and it will allow you to setup a codebase for future improvements. An advice here is to use infrastructure as a code approach so that everything can be later changed, expanded, updated but everything will be consistent and very easy to redeploy if needed.
@@ -84,6 +90,8 @@ Readiness stage is all about preparing your first Azure environment. To do that,
 Once the landing zone is created, you want to extend it even further (**Extend Landing Zone**) to match your organization needs and allow for the smooth cloud transition. One important thing is this will be shown across this entire process and a lot of places in cloud adoption framework is as you go through those stages **always check the best practices**. You just want to be sure that this initial landing zone and the expansion goes according to the best practices because later on it's very hard to change things if you will create bad platform architecture.
 
 ![image](https://github.com/user-attachments/assets/e1cd34a0-8c9b-4130-aef1-b526a6ed8294)
+
+![image](https://github.com/user-attachments/assets/af543cae-b687-4274-8208-ad732395eb59)
 
 
 
