@@ -52,5 +52,7 @@ In the **planning phase** there are again few steps that we need to follow.
 
 **3.** Another option is called **rearchitect**. For the **rearchitect**, you will need to make complex changes to your codebase. This is used to introduce new services in your application. For example, you might see that a key vault is very good service in Azure and you want to introduce it in your application therefore you might want to rearchitect existing ones to take advantage of those security services in Azure. Another reason for rearchitecture is when your application strongly depends on the physical infrastructure in your company so it is incompatible with the cloud. In short, you use rearchitect to implement new features or fix incompatible applications. 
 
-**4.** Another one is **rebuild**. For this rationale, we create applications from scratch. This could be also called New. We look at existing application, we see that effort of introducing this in the cloud is too big or maybe the code is too old and we decide to rebuild this from scratch to take full advantage of what cloud has to offer
+**4.** Another one is **rebuild**. For this rationale, we create applications from scratch. This could be also called New. We look at existing application, we see that effort of introducing this in the cloud is too big or maybe the code is too old and we decide to rebuild this from scratch to take full advantage of what cloud has to offer 
+
+**5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings
 
