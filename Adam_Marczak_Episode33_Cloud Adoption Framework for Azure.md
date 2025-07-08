@@ -81,4 +81,17 @@ In the planning stage, we want to create actionable plan for our cloud adoption.
 
 Readiness stage is all about preparing your first Azure environment. To do that, you start with **Azure Setup Guide**. You read Azure documentation on how the initial environment should look like. You want to become familiar with the tools and approaches that will help you create this first Azure Environment. Also, at this stage, you will want to choose which type of Azure subscription should you use and which is best for yur company. Once you have everything prepared, you start creating your first Azure environment. This is so-called **Azure Landing Zone**, this will be your first Azure environment. It will be completely created out of Microsoft guidelines and it will allow you to setup a codebase for future improvements. An advice here is to use infrastructure as a code approach so that everything can be later changed, expanded, updated but everything will be consistent and very easy to redeploy if needed.
 
-Once the landing zone is created, you want to extend it even further (**Extend Landing Zone**)
+Once the landing zone is created, you want to extend it even further (**Extend Landing Zone**) to match your organization needs and allow for the smooth cloud transition. One important thing is this will be shown across this entire process and a lot of places in cloud adoption framework is as you go through those stages **always check the best practices**. You just want to be sure that this initial landing zone and the expansion goes according to the best practices because later on it's very hard to change things if you will create bad platform architecture.
+
+![image](https://github.com/user-attachments/assets/e1cd34a0-8c9b-4130-aef1-b526a6ed8294)
+
+
+
+
+
+# ADOPT
+
+To summarize the ready stage, we want to prepare Azure environment since we have the plan to adopt the cloud. Our next step is **Adopt**. Because all our previous stages were preparing us to move to the cloud. **Adopt** is where we start doing that. In the adaoption, we again, have few steps but adoption splits into two separate streams. One is called **migrate**. When we are talking about motivations, one of the most common motivation triggers was migrations and this is why adoption is split into migrations and innovations. The first step that you want to do in this stage is do your first migration.
+During this step, you want to migrate your first project to the cloud. This is so that you can read all the guides that Microsoft prepare for the migration paths. You want to familiarize yourself with the native tools and approaches in Azure that will help you to do that migration. But the important part here is not only the migration but also the learning curve. Because after the first migration you need to familiarize yourself with migration scenarios. When moving to the cloud, you will see that there's plenty of different scenarios, different workload that needs to be migrated. 
+
+For example, migrating virtual amchines
