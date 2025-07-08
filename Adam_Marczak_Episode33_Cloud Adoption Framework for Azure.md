@@ -117,4 +117,12 @@ Once the solutions are defined and the platform is ready, you can hand it over t
 
 
 ### SUMMARY
-In summary, governance is about making sure that your environments stay compliant, it will be controlled and
+In summary, governance is about making sure that your environments stay compliant, it will be controlled and secure whereas management is about ongoing operation and optimizations of your current environment.
+But I want to talk about one more thing here which is called **organize**. It's not a stage per se but it is an alignment that needs to go across this entire process. So yo uneed to be sure that across this entire process people will have assigned role and responsibilities. This is because this entire cloud adoption framework will involve a lot of people, a lot of stakeholders, a lot of teams so you need to make sure that everyone knows what to do. One of the ways to achieve that is to create this **RACI matrix** which stands for **responsible**, **accountable**, **consulted**, and **informed** so that every team know what to do and when during this entire process. 
+
+![image](https://github.com/user-attachments/assets/731265ef-c304-4ae4-82d7-5dfe47f35d2d)
+
+
+![image](https://github.com/user-attachments/assets/b8009a3a-e8c4-4dcc-bb2f-1a4d2f035727)
+
+![image](https://github.com/user-attachments/assets/4fd95628-ab7e-472f-bae0-dfaf572aef7a)
