@@ -19,6 +19,8 @@ Before we move to the framework itself, let's start with **what cloud adoption i
 
 **Cloud adoption framework** is divided into stages:
 
+# STRATEGY
+
 1. The first stage we'll look at today is called **Strategy**. 
 **Strategy** is simply building organizational alignment for moving to the cloud, to begin cloud adoption.
 
@@ -40,11 +42,13 @@ Once you start deploying things to Azure, **Azure Cost Management** will give yo
 
 ![image](https://github.com/user-attachments/assets/46f95a67-3247-4d0b-a1c5-7e573561f6f8)
 
-**In summary, our first stage, **strategy** is about defining business justification and the outcomes. Once the stage is completed, we move the **planning phase**.
+**In summary, our first stage, **strategy** is about defining business justification and the outcomes. Once the stage is completed, we move the **planning phase**.**
+
+# PLANNING
 
 In the **planning phase** there are again few steps that we need to follow. 
 
-**a.** The first step is **Digital Estate**. This is so-called **investory of assets**. You want to review what you currently have in your company and what you should do with it. And that decision, that rationalization is decided bases on the **five R's** of rationalization rule. For each digital asset that you will find in your company, you want to assign one R. 
+**A.** The first step is **Digital Estate**. This is so-called **investory of assets**. You want to review what you currently have in your company and what you should do with it. And that decision, that rationalization is decided bases on the **five R's** of rationalization rule. For each digital asset that you will find in your company, you want to assign one R. 
 
 **1.** First, we have **rehost**. **Rehost** means that we take existing application and we move it to the cloud without any changes. This typically means move existing applications into infrastructure as a service (IaaS)- deploy into virtual machine or a container. 
 
@@ -54,5 +58,25 @@ In the **planning phase** there are again few steps that we need to follow.
 
 **4.** Another one is **rebuild**. For this rationale, we create applications from scratch. This could be also called New. We look at existing application, we see that effort of introducing this in the cloud is too big or maybe the code is too old and we decide to rebuild this from scratch to take full advantage of what cloud has to offer 
 
-**5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings. Maybe there is offering that completely replaces the functionality that your current application provides. In which case you might want to drop the current application and take the Software as a Service offering. Basically, in your company go though every project that you have
+**5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings. Maybe there is offering that completely replaces the functionality that your current application provides. In which case you might want to drop the current application and take the Software as a Service offering. Basically, in your company go though every project that you have, assign one of those **Rs** for every project that you can and then create a plan out of this.
 
+
+**B.**
+
+Next step is **Initial Organization Alignment**. During this, when the plan is being established, you want to meet with the key stakeholders in your organization to make sure that everyone is aligned and every key person supports this adoption plan. During this step, the alignment of people who will make this plan a reality is very important. It is also a step where you map your people to the capabilities so you know who should be engaged when. 
+
+**C.**
+
+Once your organization is aligned, you will create **Skills Readiness Plan**. During this stage, you want to review your current skill sets in your company and create a plan that will address the gaps because in the cloud, you will need to have a lot of new skills in your company across different teams and different people and this plan will take care of that.
+
+**D.**
+
+Once you do all those things, simply put it into so-called **Cloud Adoption Plan**. This plan will be used to manage the change across your digital estate, skills, and the organization and the processes.
+
+### SUMMARY
+
+In the planning stage, we want to create actionable plan for our cloud adoption. From there, we move to the next stage called **ready**.
+
+# READY
+
+Readiness stage is all about preparing your first Azure environment. To do that, you start with **Azure Setup Guide**. You read Azure documentation on how the initial environment should look like. You want to become familiar with the tools and approaches that will help you create this first Azure Environment. Also, at this stage, you will want to choose which type of Azure subscription should you use and which is best for yur company. Once you have everything prepared, you start creating your first Azure environment. This is so-called **Azure Landing Zone**, this will be your first Azure environment. It will be completely created
