@@ -54,5 +54,5 @@ In the **planning phase** there are again few steps that we need to follow.
 
 **4.** Another one is **rebuild**. For this rationale, we create applications from scratch. This could be also called New. We look at existing application, we see that effort of introducing this in the cloud is too big or maybe the code is too old and we decide to rebuild this from scratch to take full advantage of what cloud has to offer 
 
-**5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings
+**5.** The last one is called **replace**. In **replace** you want to look at every single application that you have and see what cloud has to offer already. Maybe not only Azure but Office365 has a lot of Software as a Service offerings. Maybe there is offering that completely replaces the functionality that your current application provides. In which case you might want to drop the current application and take the Software as a Service offering. Basically, in your company go though every project that you have
 
