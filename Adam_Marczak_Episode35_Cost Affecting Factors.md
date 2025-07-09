@@ -14,8 +14,15 @@ But if you bought **Azure storage account** for instance, the price consists of 
 
 In the case of **Azure logic apps**, the pricing is even simpler. How many actions did you execute. 
 
-One thing to note is that resources that are only organizational resources and logical resources like **Resource groups** are free because they are not servers, they are logical objects in Azure. Those do not have any kind of cost associated.
+One thing to note is resources that are only organizational resources and logical resources like **Resource groups** are free because they are not servers, they are logical objects in Azure. Those do not have any kind of cost associated.
 
-What you should remember from this slide is that every resource type have a small metric that is tracking its usage and this will be your key factor that will affect the final cost of your Azure environment. Therefore you should always spend time to think what kind of use case do you have. What kind of application are you building and which are the right resoruce types for you.
+What you should remember from this slide is that every resource type have a small metric that is tracking its usage and this will be your key factor that will affect the final cost of your Azure environment. Therefore you should always spend time to think what kind of use case do you have. What kind of application are you building and which are the right resource types for you.
 
 ![image](https://github.com/user-attachments/assets/b04d67dd-2b1b-42b3-b62e-8cb33724b928)
+
+# Services
+
+Beside resource types be aware that different service offerings of Azure have different price of services associated with them. When talking about services we're talking about **what kind of Azure offer do you have?**, **how did you purchase your Azure?**. As a customer, you have multiple ways to buy Azure from Microsoft.
+One of the most common ways is buying this through a web portal wher you can get one of many available Azure offer types like **Azure Free** which is great for testing or **Pay-as-you-go** subscription where you are billed monthly for your Azure usage. You can also get some Azure credits from **Microsoft partner network** or if you have a visual studio license. There's plenty different offer types that you can choose from. 
+
+Besides that you can contact Microsoft representative and buy an enterprise agreement. This is agreement between your company and Microsoft. This is a contract that you sign. Lastly, you can buy Azure from a partner of Microsoft so-called **Cloud Solution Providers**. This model in short is called CSP. So depending on which Azure offer type do you have, it will affect two things. One of them is **usage rate**, simply the cost of your **Azure services** and the billing cycle but the usage rates are changing because when you are purchasing Azure from an enterprise agreement or through CSP, you can negotiate the prices. If you negotiate any discounts, this discount will be applied
