@@ -8,5 +8,5 @@ We will learn multiple ways to reduce the cost of our Azure services. We will al
 
 In Azure, you purchase capacity of the services overtime. In case of virtual machine, this simply means performance and one of the biggest ebenfits of the cloud is being able to shut this virtual machine down whenever you don't need it, turn it ON when you need it, or even cale up and down whenever that's necessary. The best part is you will only pay for the usage. The **usage** means the cost of the service. 
 What happens if you have a different kind of workload?
-A Workload that does not need those benefits of the cloud, a very stable workload that will constantly consume one virtual core of that virtual machine over time and you won't be shutting it down or scaling up this virtual machine
+A Workload that does not need those benefits of the cloud, a very stable workload that will constantly consume one virtual core of that virtual machine over time and you won't be shutting it down or scaling up this virtual machine therefore you're losing those benefits of the cloud. Does that mean you have no way to reduce the cost of that virtual machine?
 
