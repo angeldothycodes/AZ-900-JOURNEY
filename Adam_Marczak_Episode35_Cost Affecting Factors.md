@@ -25,4 +25,13 @@ What you should remember from this slide is that every resource type have a smal
 Beside resource types be aware that different service offerings of Azure have different price of services associated with them. When talking about services we're talking about **what kind of Azure offer do you have?**, **how did you purchase your Azure?**. As a customer, you have multiple ways to buy Azure from Microsoft.
 One of the most common ways is buying this through a web portal wher you can get one of many available Azure offer types like **Azure Free** which is great for testing or **Pay-as-you-go** subscription where you are billed monthly for your Azure usage. You can also get some Azure credits from **Microsoft partner network** or if you have a visual studio license. There's plenty different offer types that you can choose from. 
 
-Besides that you can contact Microsoft representative and buy an enterprise agreement. This is agreement between your company and Microsoft. This is a contract that you sign. Lastly, you can buy Azure from a partner of Microsoft so-called **Cloud Solution Providers**. This model in short is called CSP. So depending on which Azure offer type do you have, it will affect two things. One of them is **usage rate**, simply the cost of your **Azure services** and the billing cycle but the usage rates are changing because when you are purchasing Azure from an enterprise agreement or through CSP, you can negotiate the prices. If you negotiate any discounts, this discount will be applied
+Besides that you can contact Microsoft representative and buy an enterprise agreement. This is agreement between your company and Microsoft. This is a contract that you sign. Lastly, you can buy Azure from a partner of Microsoft so-called **Cloud Solution Providers**. This model in short is called CSP. So depending on which Azure offer type do you have, it will affect two things. One of them is **usage rate**, simply the cost of your **Azure services** and the billing cycle but the usage rates are changing because when you are purchasing Azure from an enterprise agreement or through CSP, you can negotiate the prices. If you negotiate any discounts, this discount will be applied for all the services available in your azure subscriptions. This will definitely affect the final cost of your Azure environment
+
+![image](https://github.com/user-attachments/assets/27ec444a-5daf-4db6-96f1-f94fac168ad2)
+
+
+# Location
+
+There is one more very important thing when purchasing Azure services. This is the location of services. In which Azure region are our services currently located.
+
+Let's imagine a scenario where you purchase Azure virtual machine in West Europe region. That virtual amchine will have
