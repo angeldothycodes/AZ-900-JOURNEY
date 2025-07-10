@@ -36,3 +36,20 @@ There is one more very important thing when purchasing Azure services. This is t
 
 Let's imagine a scenario where you purchase Azure virtual machine in West Europe region. That virtual machine will have one virtual core and four gigabytes of memory. If you go to Azure pricing calculator, you might see that this virtual machine will cost you 100 US dollar per month but if you suddenly change region and you will pick exactly same machine with exactly same configuration in North Europe, you might see that the price suddenly differs. This is the exact same configuration, exact same resource type on exact same offer yet the price differs. You will see that across many different regions in Azure that as soon as you will start picking the same service but in different regions price will be different. The true answer is a little bit more complex but we can narrow it down to a simple statement that the cost of running Azure data center differs from region to region. 
 My advice is that when you are picking the region for your Azure solution, pick the region that is nearby to your customers so the latency is small. The region that has all the services that you want to use and the lowest price for those services.
+
+
+# Bandwidth/ Traffic
+
+The last factor that affects the cost of your Azure environment is bandwidth. How much data are we moving to Azure and out of Azure?
+When you are customers, the first thing that you will do most of the time is migrate to Azure. Therefore, in your company from your servers you will want to upload data to Azure Data Center. This upload is called **ingress** or otherwise called **inbound traffic**.
+This is the **in** traffic from the perspective of Azure. This is incoming data to Azure data center. If you're downloading data from Azure, then we're talking about the **egress** or so-called **outbound traffic** because this is the traffic going out of Azure. What it should be noted is that most of the time, in most scenarios, **the traffic that is going to Azure is free**. The **inbound traffic is free** in most cases. But the **outbound traffic** is not. 
+One of the things that I advise you do is go to Microsoft pricing page for bandwidth and read about the scenarios when it comes to how bandwidth is priced because there's quite a few of them, there are different pricing scenarios for moving data across data centers when moving across different regions in different markets or different continents.
+It's something I advise you to check if you're designing applications that will have their infrastructures scale globally and you will be moving a lot of data across different Azure regions
+
+![image](https://github.com/user-attachments/assets/3c6606ab-65df-4901-85b9-b65b2d1ede96)
+
+
+# CHAPTER SUMMARY
+
+![image](https://github.com/user-attachments/assets/66c439e3-117e-40c8-9e23-d0ae100e046b)
+
