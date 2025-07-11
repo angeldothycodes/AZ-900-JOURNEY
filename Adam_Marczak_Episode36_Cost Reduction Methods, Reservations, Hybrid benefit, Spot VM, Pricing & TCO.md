@@ -45,4 +45,36 @@ Depending on the capacity that is left in the data center, you will get a differ
 
 # Hybrid Use Benefit
 
-Imagine a scenario where in your on-premise data center, you have a virtual machine with one virtual core running Windows Server because this virtual machine is running Windows server that means you also purchased a license for a Windows Server for one core. When you migrate this workload to Azure, you will also create a virtual machine of the same size with one virtual core and you will pay the price for the compute power with one virtual core assigned because this virtual machine is using Windows, you will also need to choose Windows virtual machine in Azure therefore your price for 
+Imagine a scenario where in your on-premise data center, you have a virtual machine with one virtual core running Windows Server because this virtual machine is running Windows server that means you also purchased a license for a Windows Server for one core. When you migrate this workload to Azure, you will also create a virtual machine of the same size with one virtual core and you will pay the price for the compute power with one virtual core assigned because this virtual machine is using Windows, you will also need to choose Windows virtual machine in Azure therefore your price for virtual machine will also include the cost of the license. 
+When you go to any kind of calculator in Azure, you will quickly notice that the price for Windows machines is always higher than when comparing those to a Linux machine. This is because a Linux like Ubuntu is free whereas for Windows, you need to pay for the Windows server licenses but in this scenario, you already have the license for your Windows server and then you're paying additionally the cost of the licensing cloud that doesn't  make sense.
+**This is where hybrid use comes into play.**
+You can use this license in the cloud by selecting hybrid benefit when you create your virtual machine.
+When you do it, it will remove the cost of the license associated with the virtual machine therefor the cost of your virtual machine will be only associated with the compute power.
+If you combine the hybrid use benefit with Azure reservations, you can significantly reduce the cost of your Azure environments.
+
+<img width="805" height="509" alt="image" src="https://github.com/user-attachments/assets/0a54b4f3-7f56-458d-908e-fb454f07c5bd" />
+
+Hybrid benefits allows you to use exisiting licenses that you already purchased for Windows Server, RedHat, SUSE, or SQL Server in Azure.
+
+For the first three, we're talking about the operating costs on other virtual machines but when it comes to SQL server you can significantly reduce the price of Azure SQL databases. Azure SQL managed instances, SQL server on virtual machine and even data factory running SQL
+
+<img width="649" height="441" alt="image" src="https://github.com/user-attachments/assets/181ddf59-759c-42c0-bd03-957c4d8de71b" />
+
+
+### Cost Reduction Methods
+
+There are two tools that we need to mention when it comes to cost reduction. Those are **Azure pricing calculator** which we already saw in the previous episode. In this pricing calculator, you choose the service that you want to use then you adjust the variables, the parameters for the service, and you review the cost.
+
+Let me show you how this works with one 
+
+<img width="790" height="306" alt="image" src="https://github.com/user-attachments/assets/b56ff58c-c185-4c84-9a53-b730d5b54a50" />
+
+Second tool is called **Total Cost of Ownership (TCO) Calculator**. It allows you to compare the cost of running certain workloads in your data center versus Azure. The process is also very simple, first, you define your workloads that you have in your datacenter then you adjust some assumptions like the cost of labor, cost of the licenses, adjust what kind of things you would want to leverage in Azure.
+
+Then you are presented with a report which shows you the comparison of running that particular workload in Azure versus your own data center.
+
+<img width="829" height="491" alt="image" src="https://github.com/user-attachments/assets/c1cfbf96-75ec-462c-9395-c29d7e094489" />
+
+
+<img width="1305" height="632" alt="image" src="https://github.com/user-attachments/assets/7c0be6b5-9622-466a-9ac4-533e9c9f5f94" />
+
