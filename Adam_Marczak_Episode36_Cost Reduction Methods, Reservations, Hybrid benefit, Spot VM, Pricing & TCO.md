@@ -44,3 +44,5 @@ Depending on the capacity that is left in the data center, you will get a differ
 
 
 # Hybrid Use Benefit
+
+Imagine a scenario where in your on-premise data center, you have a virtual machine with one virtual core running Windows Server because this virtual machine is running Windows server that means you also purchased a license for a Windows Server for one core. When you migrate this workload to Azure
