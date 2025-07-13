@@ -65,4 +65,11 @@ It's a combined SLA of all of your application components. Therefore if you use 
 <img width="895" height="533" alt="image" src="https://github.com/user-attachments/assets/e1ed1c4e-f827-42a1-b74a-ec12a1421521" />
 
 
-<img width="902" height="440" alt="image" src="https://github.com/user-attachments/assets/00099e26-bcd1-44de-a7b0-b475fea5bc6a" />
+<img width="897" height="443" alt="image" src="https://github.com/user-attachments/assets/8351772b-afe3-43b7-b744-95168b850be9" />
+
+
+
+
+<img width="802" height="405" alt="image" src="https://github.com/user-attachments/assets/8dc55497-2529-4a65-8ad6-435423f41825" />
+
+
