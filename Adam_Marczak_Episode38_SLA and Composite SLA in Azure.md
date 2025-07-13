@@ -37,3 +37,10 @@ Lastly, if the **SLA** is broken, you will get the discount. The so-called **ser
 It's a combined SLA of all of your application components. Therefore if you use multiple Azure services, you need to combine their SLA to calculate the SLA for your entire application
 
 <img width="579" height="208" alt="image" src="https://github.com/user-attachments/assets/f4fcf697-d98f-40a5-a40f-432ccea44bef" />
+
+<img width="757" height="514" alt="image" src="https://github.com/user-attachments/assets/4f730f42-e0fb-4742-840b-0e0c611cebdf" />
+
+
+**How do we calculate SLA, a composite SLA, for two components that need to work together?**
+
+  <img width="858" height="444" alt="image" src="https://github.com/user-attachments/assets/2f5d0f9e-1a0d-4d6b-90f3-67b95e6f4731" />
