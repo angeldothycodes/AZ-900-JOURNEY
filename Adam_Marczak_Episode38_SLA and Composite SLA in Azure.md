@@ -41,6 +41,28 @@ It's a combined SLA of all of your application components. Therefore if you use 
 <img width="757" height="514" alt="image" src="https://github.com/user-attachments/assets/4f730f42-e0fb-4742-840b-0e0c611cebdf" />
 
 
+
 **How do we calculate SLA, a composite SLA, for two components that need to work together?**
+**Answer**: Multiply their availability
+
+<img width="513" height="228" alt="image" src="https://github.com/user-attachments/assets/b8a1ec1a-5b5d-454e-b749-2702b5be77d3" />
+
 
   <img width="858" height="444" alt="image" src="https://github.com/user-attachments/assets/2f5d0f9e-1a0d-4d6b-90f3-67b95e6f4731" />
+
+
+  <img width="459" height="355" alt="image" src="https://github.com/user-attachments/assets/a47a56ba-07ef-419f-8867-c544e6e160ac" />
+
+**When you have a logical OR between two services, the availability is calculated a little differently. It's simply a multiplication of each service unavailability and then subtracting that from 100%
+
+<img width="883" height="565" alt="image" src="https://github.com/user-attachments/assets/9c98ab6e-e656-49d5-bde2-7016782d6a72" />
+
+
+
+<img width="888" height="510" alt="image" src="https://github.com/user-attachments/assets/0fea97ea-f264-4d50-9eac-979cf90c0cc4" />
+
+
+<img width="895" height="533" alt="image" src="https://github.com/user-attachments/assets/e1ed1c4e-f827-42a1-b74a-ec12a1421521" />
+
+
+<img width="902" height="440" alt="image" src="https://github.com/user-attachments/assets/00099e26-bcd1-44de-a7b0-b475fea5bc6a" />
