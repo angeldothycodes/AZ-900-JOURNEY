@@ -47,7 +47,7 @@ In this case, you still have a quite of lot maintenance but high degree of contr
 
 
 ## Containers vs VMs
-You can move away from virtual machines into containers. Containers are a little bit different than virtual machines. While there is still physical machine, there is still operating system unerneath. But instead of installing virtualization software, we install container runtime within container runtime, you install containers. **Container** is a sandbox environment for each application and you can have multiple containers within a single runtime. The major difference here is there is no operating system replicated across each container. As such, the footprint of the container is much smaller than the one of the virtual machine.
+You can move away from virtual machines into containers. Containers are a little bit different than virtual machines. While there is still physical machine, there is still operating system unerneath. But instead of installing virtualization software, we install container runtime. Within container runtime, you install containers. **Container** is a sandbox environment for each application and you can have multiple containers within a single runtime. The major difference here is there is no operating system replicated across each container. As such, the footprint of the container is much smaller than the one of the virtual machine.
 
 ![image](https://github.com/user-attachments/assets/6f61dada-22c6-49f3-8fdf-e48a60c1a8ed)
 
