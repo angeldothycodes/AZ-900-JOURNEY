@@ -27,11 +27,13 @@ We were talking about this unstructured data. Any kind of unstructured data can 
 ![image](https://github.com/user-attachments/assets/7207b9c0-7f6f-4449-b4a2-f845d28915b4)
 
 
-**Azure Blob Storage** is simply a service designed to store any kind of file in Azure. Remember that **blob is just a synonym for file** because Binary Large Object can represent anything. Additionally, there are three storage tiers. Storage tiers allow Microsoft to provide you better perfomance and better pricing depending on how often do you access your data. First tier is called **hot**, you use this for your frequently accessed data. If you're building web application and this web app is serving images to your customers then this would be the storage tier that you would use because hot storage tier provides the best performance for your files. 
+**Azure Blob Storage** is simply a service designed to store any kind of file in Azure. Remember that **blob is just a synonym for file** because Binary Large Object can represent anything. Additionally, there are three storage tiers. Storage tiers allow Microsoft to provide you better perfomance and better pricing depending on how often do you access your data. 
 
-But if your solution also store files that are accessed less frequently, then you can use **cool tier**. With **cool tier**, you are accepting lower availability and lower performance for accessing your files while maintaining high durability and getting significant discount for storing that data. This is the perfect solutions for storing older versions and backups for your applications.
+> First tier is called **hot**, you use this for your frequently accessed data. If you're building web application and this web app is serving images to your customers then this would be the storage tier that you would use because hot storage tier provides the best performance for your files. 
 
-If you have files that you never plan to access, like a long term backups. Let's say backup that you need to keep for 10 years, you can use **archive storage tier**. In this case, the availability is the lowest because retrieving that data might even take couple of hours but the price is also the lowest. You're getting 10x the discount for storing data in archived tier. This is the lowest price per gigabyte that you can get when storing data in Azure.
+> But if your solution also store files that are accessed less frequently, then you can use **cool tier**. With **cool tier**, you are accepting lower availability and lower performance for accessing your files while maintaining high durability and getting significant discount for storing that data. This is the perfect solutions for storing older versions and backups for your applications.
+
+> If you have files that you never plan to access, like a long term backups. Let's say backup that you need to keep for 10 years, you can use **archive storage tier**. In this case, the availability is the lowest because retrieving that data might even take couple of hours but the price is also the lowest. You're getting 10x the discount for storing data in archived tier. This is the lowest price per gigabyte that you can get when storing data in Azure.
 
 ![image](https://github.com/user-attachments/assets/c14ebd3f-74c5-42cd-86fc-588c7f29fe56)
 
